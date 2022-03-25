@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Leaders>
+		<Update>
+			<Where LeaderType="LEADER_UZUKI"/>
+			<Set>
+				<Sex>Female</Sex>
+			</Set>
+		</Update>
+	</Leaders>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_UZUKI" TraitType="TRAIT_LEADER_PURSUE_DIPLOMATIC_VICTORY"/>
+	</LeaderTraits>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_THEATER_DIPLOMATIC_FAVOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_2_SPECIALTY_DISTRICTS_AND_THEATER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THEATER_DIPLOMATIC_FAVOR_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EXTRA_FAVOR_PER_TURN</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_THEATER_DIPLOMATIC_FAVOR</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_THEATER_DIPLOMATIC_FAVOR_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THEATER_DIPLOMATIC_FAVOR_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_346_TRAINER" Texture="Moment_4StarUnit.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_STARLIGHT_STAGE" Texture="Moment_DistrictBuiltTheatre.dds"/>
+		<!--<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_346_MUTSUKI" Texture="Moment_FirstSeaUnitMid.dds"/>-->
+	</MomentIllustrations>
+	<NamedRiverCivilizations>
+		<Row NamedRiverType="NAMED_RIVER_ABUKUMA_RIVER" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedRiverType="NAMED_RIVER_ISHIKARI_RIVER" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedRiverType="NAMED_RIVER_KITAKAMI_RIVER" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedRiverType="NAMED_RIVER_MOGAMI_RIVER" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedRiverType="NAMED_RIVER_SHINANO" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedRiverType="NAMED_RIVER_TENRYU_RIVER" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedRiverType="NAMED_RIVER_TESHIO_RIVER" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedRiverType="NAMED_RIVER_TONE_RIVER" CivilizationType="CIVILIZATION_MISHIRO"/>
+	</NamedRiverCivilizations>
+	<NamedVolcanoCivilizations>
+		<Row NamedVolcanoType="NAMED_VOLCANO_ASAMA" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_FUJI" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_SAKURAJIMA" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_UNZEN" CivilizationType="CIVILIZATION_MISHIRO"/>
+	</NamedVolcanoCivilizations>
+	<NamedMountainCivilizations>
+		<Row NamedMountainType="NAMED_MOUNTAIN_AKAISHI" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_HIDA_MOUNTAINS" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_KAMIKOCHI" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_KISO_MOUNTAINS" CivilizationType="CIVILIZATION_MISHIRO"/>
+	</NamedMountainCivilizations>
+	<NamedLakeCivilizations>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_BIWA" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_INAWASHIRO" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_KASUMIGAURA" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_KAWAGUCHI" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_NAKAUMI" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_SHINJI" CivilizationType="CIVILIZATION_MISHIRO"/>
+	</NamedLakeCivilizations>
+	<NamedSeaCivilizations>
+		<Row NamedSeaType="NAMED_SEA_AGO_BAY" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedSeaType="NAMED_SEA_EAST_CHINA_SEA" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedSeaType="NAMED_SEA_GENKAI_SEA" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedSeaType="NAMED_SEA_MUTSU_BAY" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedSeaType="NAMED_SEA_PHILIPPINE_SEA" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedSeaType="NAMED_SEA_SAGAMI_BAY" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedSeaType="NAMED_SEA_SEA_OF_HYUGA" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedSeaType="NAMED_SEA_SEA_OF_JAPAN" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedSeaType="NAMED_SEA_SEA_OF_OKHOTSK" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedSeaType="NAMED_SEA_SETO_SEA" CivilizationType="CIVILIZATION_MISHIRO"/>
+		<Row NamedSeaType="NAMED_SEA_YATSUSHIRO_SEA" CivilizationType="CIVILIZATION_MISHIRO"/>
+	</NamedSeaCivilizations>
+
+	<Traits>
+		<Update>
+			<Where Description="LOC_TRAIT_LEADER_SMILING_DESCRIPTION"/>
+			<Set Description="LOC_TRAIT_LEADER_SMILING_EXPANSION2_DESCRIPTION"/>
+		</Update>
+	</Traits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_SMILING" ModifierId="TRAIT_THEATER_DIPLOMATIC_FAVOR" />
+	</TraitModifiers>
+
+
+	<!--
+	<Units_XP2>
+		<Row UnitType="UNIT_346_MUTSUKI" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
+	</Units_XP2>
+
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_346_MUTSUKI"/>
+			<Set>
+				<StrategicResource>RESOURCE_OIL</StrategicResource>
+			</Set>
+		</Update>
+	</Units>
+	-->
+
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_STARLIGHT_STAGE" YieldChangeId="Government_Culture"/>
+		<Row DistrictType="DISTRICT_STARLIGHT_STAGE" YieldChangeId="Pamukkale_Culture"/>
+		<Row DistrictType="DISTRICT_STARLIGHT_STAGE" YieldChangeId="EntertainmentComplex_Culture"/>
+		<Row DistrictType="DISTRICT_STARLIGHT_STAGE" YieldChangeId="WaterPark_Culture"/>
+	</District_Adjacencies>
+
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_STARLIGHT_STAGE"/>
+			<Set>
+				<Description>LOC_DISTRICT_STARLIGHT_STAGE_DESCRIPTION_XP2</Description>
+			</Set>
+		</Update>
+	</Districts>
+
+	<Modifiers>
+		<Update>
+			<Where ModifierId="STARLIGHT_STAGE_TRADE_ROUTE_CAPACITY"/>
+			<Set>
+				<SubjectRequirementSetId>STARLIGHT_STAGE_TRADE_ROUTE_CAPACITY_REQUIREMENTS_XP1</SubjectRequirementSetId>
+			</Set>
+		</Update>
+	</Modifiers>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>STARLIGHT_STAGE_TRADE_ROUTE_CAPACITY_REQUIREMENTS_XP1</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>STARLIGHT_STAGE_TRADE_ROUTE_CAPACITY_REQUIREMENTS_XP1</RequirementSetId>
+			<RequirementId>REQUIRES_NO_MARKET</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>STARLIGHT_STAGE_TRADE_ROUTE_CAPACITY_REQUIREMENTS_XP1</RequirementSetId>
+			<RequirementId>REQUIRES_NO_LIGHTHOUSE_UZUKI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>STARLIGHT_STAGE_TRADE_ROUTE_CAPACITY_REQUIREMENTS_XP1</RequirementSetId>
+			<RequirementId>REQUIRES_AMPHITHEATER_UZUKI</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_NO_LIGHTHOUSE_UZUKI</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_AMPHITHEATER_UZUKI</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_NO_LIGHTHOUSE_UZUKI</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_LIGHTHOUSE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_NO_LIGHTHOUSE_UZUKI</RequirementId>
+			<Name>MustBeFunctioning</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_AMPHITHEATER_UZUKI</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_AMPHITHEATER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_AMPHITHEATER_UZUKI</RequirementId>
+			<Name>MustBeFunctioning</Name>
+			<Value>false</Value>
+		</Row>
+	</RequirementArguments>
+	
+</GameData>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>LOC_UZUKI_LANDSOL_MOD_TITLE</Name>
+    <Guid>b8cd81f8-7f4c-4fe6-a4cc-d5c3592058f8</Guid>
+    <ProjectGuid>c5369dc6-c8c0-4887-a3a8-0d99dae11066</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>LOC_UZUKI_LANDSOL_MOD_TEASER</Teaser>
+    <Description>LOC_UZUKI_LANDSOL_MOD_DESCRIPTION</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LandsolUzuki</Criteria><File>Data/LandsolUzuki_Leaders.xml</File><File></File></UpdateDatabase><UpdateText id="Text"><Criteria>LandsolUzuki</Criteria><File>Text/LandsolUzuki_ConfigText_AFallback.xml</File><File>Text/LandsolUzuki_ConfigText_zh_Hans_CN.xml</File><File>Text/LandsolUzuki_Text_AFallback.xml</File><File>Text/LandsolUzuki_Text_zh_Hans_CN.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LandsolUzuki</Criteria><File>Data/LandsolUzuki_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LandsolUzuki</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="Colors"><File>Data/LandsolUzuki_Colors.xml</File></UpdateColors><UpdateLogitechARX id="LogitechARX"><Criteria>LandsolUzuki</Criteria><File>Data/ARX/Civ_LEADER_UZUKI_LANDSOL.png</File></UpdateLogitechARX></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Data/LandsolUzuki_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Text/LandsolUzuki_ConfigText_AFallback.xml</File><File>Text/LandsolUzuki_ConfigText_zh_Hans_CN.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>Data/LandsolUzuki_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="ConfigColors"><File>Data/LandsolUzuki_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LandsolUzuki"><LeaderPlayable>Players:Expansion1_Players::LEADER_UZUKI_LANDSOL,Players:Expansion2_Players::LEADER_UZUKI_LANDSOL</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>LandsolUzuki</AssemblyName>
+    <RootNamespace>LandsolUzuki</RootNamespace>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Mod" title="LOC_UZUKI_MOD_TITLE" id="9659bd60-c29c-4f30-9eea-0f41d0f46645" />
+  <Dependency type="Mod" title="LOC_LANDSOL_MOD_TITLE" id="f370d486-00c2-4228-bd7e-2d8a71a32af4" />
+</Associations>]]></AssociationData>
+    <SpecialThanks>laosha, KevinLiu</SpecialThanks>
+    <Authors>Dwughjsd</Authors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Data" />
+    <Folder Include="Data\ARX\" />
+    <Folder Include="Text" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <None Include="ArtDefs\FallbackLeaders.artdef" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="XLPs\UILeaders.xlp" />
+    <None Include="LandsolUzuki.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\ARX\Civ_LEADER_UZUKI_LANDSOL.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\LandsolUzuki_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\LandsolUzuki_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\LandsolUzuki_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\LandsolUzuki_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\LandsolUzuki_ConfigText_AFallback.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\LandsolUzuki_ConfigText_zh_Hans_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\LandsolUzuki_Text_AFallback.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\LandsolUzuki_Text_zh_Hans_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

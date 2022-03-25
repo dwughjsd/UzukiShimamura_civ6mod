@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_UZUKI" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_SMILING" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_CHRISH_SMILE" Kind="KIND_TRAIT"/>
+		<Row Type="MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_UZUKI" Kind="KIND_MODIFIER"/>
+		<!--<Row Type="TRAIT_CIVILIZATION_UNIT_346_MUTSUKI" Kind="KIND_TRAIT"/>-->
+	</Types>
+
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_UZUKI</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_HAPPINESS_YIELD</EffectType>
+		</Row>
+	</DynamicModifiers>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_UZUKI</LeaderType>
+			<Name>LOC_LEADER_UZUKI_NAME</Name>
+			<SceneLayers>4</SceneLayers>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_UZUKI" TraitType="TRAIT_LEADER_SMILING"/>
+		<!--<Row LeaderType="LEADER_UZUKI" TraitType="TRAIT_CIVILIZATION_UNIT_346_MUTSUKI"/>-->
+		<Row LeaderType="LEADER_UZUKI" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>
+	</LeaderTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_SMILING" Name="LOC_TRAIT_LEADER_SMILING_NAME" Description="LOC_TRAIT_LEADER_SMILING_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_CHRISH_SMILE"/>
+		<!--<Row TraitType="TRAIT_CIVILIZATION_UNIT_346_MUTSUKI" Name="LOC_TRAIT_LEADER_UNIT_346_MUTSUKI_NAME"/>-->
+	</Traits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_SMILING" ModifierId="TRAIT_SPECIALTY_1_AMENITY"/>
+		<Row TraitType="TRAIT_LEADER_SMILING" ModifierId="TRAIT_SPECIALTY_2_AMENITY"/>
+		<Row TraitType="TRAIT_LEADER_SMILING" ModifierId="TRAIT_SPECIALTY_3_AMENITY"/>
+		<Row TraitType="TRAIT_LEADER_SMILING" ModifierId="TRAIT_SPECIALTY_4_AMENITY"/>
+		<Row TraitType="TRAIT_LEADER_SMILING" ModifierId="TRAIT_SPECIALTY_5_AMENITY"/>
+		<Row TraitType="TRAIT_LEADER_SMILING" ModifierId="TRAIT_CULTURE_FROM_DOMESTIC_TRADING_POSTS_UZUKI"/>
+		<Row TraitType="TRAIT_AGENDA_CHRISH_SMILE" ModifierId="AGENDA_CHRISH_SMILE_HIGH_AMENITIES"/>
+		<Row TraitType="TRAIT_AGENDA_CHRISH_SMILE" ModifierId="AGENDA_CHRISH_SMILE_LOW_AMENITIES"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_SPECIALTY_1_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_1_SPECIALTY_DISTRICT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SPECIALTY_2_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_2_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SPECIALTY_3_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_3_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SPECIALTY_4_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_4_SPECIALTY_DISTRICTS_REQUIREMENTS_UZUKI</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SPECIALTY_5_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_5_SPECIALTY_DISTRICTS_REQUIREMENTS_UZUKI</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_FROM_DOMESTIC_TRADING_POSTS_UZUKI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_POST_IN_OWN_CITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHRISH_SMILE_HIGH_AMENITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_HAPPINESS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHRISH_SMILE_LOW_AMENITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_HAPPINESS</SubjectRequirementSetId>
+		</Row>
+
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_SPECIALTY_1_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SPECIALTY_2_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SPECIALTY_3_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SPECIALTY_4_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SPECIALTY_5_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_FROM_DOMESTIC_TRADING_POSTS_UZUKI</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_FROM_DOMESTIC_TRADING_POSTS_UZUKI</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHRISH_SMILE_HIGH_AMENITIES</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHRISH_SMILE_HIGH_AMENITIES</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_UZUKI_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHRISH_SMILE_HIGH_AMENITIES</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_CHRISH_SMILE_HIGH_AMENITIES</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHRISH_SMILE_LOW_AMENITIES</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHRISH_SMILE_LOW_AMENITIES</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_UZUKI_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHRISH_SMILE_LOW_AMENITIES</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_CHRISH_SMILE_LOW_AMENITIES</Value>
+		</Row>
+	</ModifierArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_CHRISH_SMILE_HIGH_AMENITIES" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_CHRISH_SMILE_LOW_AMENITIES" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>UZUKI_CITY_HAS_THEATER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_4_SPECIALTY_DISTRICTS_REQUIREMENTS_UZUKI</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_5_SPECIALTY_DISTRICTS_REQUIREMENTS_UZUKI</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_2_SPECIALTY_DISTRICTS_AND_THEATER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_2_SPECIALTY_DISTRICTS_AND_LANDSOL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>UZUKI_HAPPINESS_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>UZUKI_CITY_HAS_THEATER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_THEATER_DISTRICT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_4_SPECIALTY_DISTRICTS_REQUIREMENTS_UZUKI</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_4_SPECIALTY_DISTRICTS_UZUKI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_5_SPECIALTY_DISTRICTS_REQUIREMENTS_UZUKI</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_5_SPECIALTY_DISTRICTS_UZUKI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_2_SPECIALTY_DISTRICTS_AND_THEATER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_2_SPECIALTY_DISTRICTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_2_SPECIALTY_DISTRICTS_AND_THEATER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_THEATER_DISTRICT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_2_SPECIALTY_DISTRICTS_AND_LANDSOL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_2_SPECIALTY_DISTRICTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_2_SPECIALTY_DISTRICTS_AND_LANDSOL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_LANDSOL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>UZUKI_HAPPINESS_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UZUKI_HAPPINESS_BONUS_NORMAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>UZUKI_HAPPINESS_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UZUKI_HAPPINESS_BONUS_LANDSOL</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_4_SPECIALTY_DISTRICTS_UZUKI</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_X_SPECIALTY_DISTRICTS</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_5_SPECIALTY_DISTRICTS_UZUKI</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_X_SPECIALTY_DISTRICTS</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UZUKI_HAPPINESS_BONUS_NORMAL</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UZUKI_HAPPINESS_BONUS_LANDSOL</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row RequirementId="REQUIRES_PLAYER_IS_LANDSOL" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_4_SPECIALTY_DISTRICTS_UZUKI</RequirementId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_5_SPECIALTY_DISTRICTS_UZUKI</RequirementId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UZUKI_HAPPINESS_BONUS_NORMAL</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>CITY_HAS_2_SPECIALTY_DISTRICTS_AND_THEATER_REQUIREMENTS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UZUKI_HAPPINESS_BONUS_LANDSOL</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>CITY_HAS_2_SPECIALTY_DISTRICTS_AND_LANDSOL_REQUIREMENTS</Value>
+		</Row>
+		<Row RequirementId="REQUIRES_PLAYER_IS_LANDSOL" Name="CivilizationType" Value="CIVILIZATION_LANDSOL"/>
+	</RequirementArguments>
+
+	<AiListTypes>
+		<Row ListType="ShimamuraUzukiTechs"/>
+		<Row ListType="ShimamuraUzukiCivics"/>
+		<Row ListType="ShimamuraUzukiWonders"/>
+		<Row ListType="ShimamuraUzukiDistricts"/>
+		<Row ListType="UzukiCulturePreference"/>
+		<Row ListType="UzukiHappinessPreference"/>
+	</AiListTypes>
+
+	<AiLists>
+		<Row ListType="ShimamuraUzukiTechs" LeaderType="TRAIT_LEADER_SMILING" System="Technologies"/>
+		<Row ListType="ShimamuraUzukiWonders" LeaderType="TRAIT_LEADER_SMILING" System="Buildings"/>
+		<Row ListType="ShimamuraUzukiCivics" LeaderType="TRAIT_LEADER_SMILING" System="Civics"/>
+		<Row ListType="ShimamuraUzukiDistricts" LeaderType="TRAIT_LEADER_SMILING" System="Districts"/>
+		<Row ListType="UzukiCulturePreference" LeaderType="TRAIT_LEADER_SMILING" System="Yields"/>
+		<Row ListType="UzukiHappinessPreference" LeaderType="TRAIT_LEADER_SMILING" System="PseudoYields"/>
+	</AiLists>
+
+	<AiFavoredItems>
+		<Row ListType="UzukiCulturePreference" Item="YIELD_CULTURE" Value="25"/>
+		<Row ListType="UzukiHappinessPreference" Item="PSEUDOYIELD_HAPPINESS" Value="100"/>
+		<Row ListType="ShimamuraUzukiTechs" Item="TECH_IRRIGATION" Favored="true"/>
+		<Row ListType="ShimamuraUzukiTechs" Item="TECH_RADIO" Favored="true"/>
+		<Row ListType="ShimamuraUzukiTechs" Item="TECH_TELECOMMUNICATIONS" Favored="true"/>
+		<Row ListType="ShimamuraUzukiWonders" Item="BUILDING_HANGING_GARDENS" Favored="true"/>
+		<Row ListType="ShimamuraUzukiWonders" Item="BUILDING_BROADWAY" Favored="true"/>
+		<Row ListType="ShimamuraUzukiCivics" Item="CIVIC_DRAMA_POETRY" Favored="true"/>
+		<Row ListType="ShimamuraUzukiCivics" Item="CIVIC_MEDIEVAL_FAIRES" Favored="true"/>
+		<Row ListType="ShimamuraUzukiCivics" Item="CIVIC_URBANIZATION" Favored="true"/>
+		<Row ListType="ShimamuraUzukiCivics" Item="CIVIC_MASS_MEDIA" Favored="true"/>
+		<Row ListType="ShimamuraUzukiCivics" Item="CIVIC_SUFFRAGE" Favored="true"/>
+		<Row ListType="ShimamuraUzukiDistricts" Item="DISTRICT_STARLIGHT_STAGE" Favored="true"/>
+	</AiFavoredItems>
+
+	<Agendas>
+		<Row AgendaType="AGENDA_CHRISH_SMILE" Name="LOC_AGENDA_CHRISH_SMILE_NAME" Description="LOC_AGENDA_CHRISH_SMILE_DESCRIPTION"/>
+	</Agendas>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_UZUKI" AgendaType="AGENDA_CHRISH_SMILE"/>
+	</HistoricalAgendas>
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_CHRISH_SMILE" TraitType="TRAIT_AGENDA_CHRISH_SMILE"/>
+	</AgendaTraits>
+
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_CHRISH_SMILE" AgendaTwo="AGENDA_FUN_LOVING"/>
+	</ExclusiveAgendas>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_UZUKI" Quote="LOC_LEADER_UZUKI_QUOTE"/>
+	</LeaderQuotes>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_SMILING" ModifierId="TRAIT_UZUKI_SCIENCE_HAPPY" />
+		<Row TraitType="TRAIT_LEADER_SMILING" ModifierId="TRAIT_UZUKI_SCIENCE_ECSTATIC" />
+		<Row TraitType="TRAIT_LEADER_SMILING" ModifierId="TRAIT_UZUKI_PRODUCTION_HAPPY" />
+		<Row TraitType="TRAIT_LEADER_SMILING" ModifierId="TRAIT_UZUKI_PRODUCTION_ECSTATIC" />
+		<Row TraitType="TRAIT_LEADER_SMILING" ModifierId="TRAIT_UZUKI_FAITH_HAPPY" />
+		<Row TraitType="TRAIT_LEADER_SMILING" ModifierId="TRAIT_UZUKI_FAITH_ECSTATIC" />
+		<Row TraitType="TRAIT_LEADER_SMILING" ModifierId="TRAIT_UZUKI_CULTURE_HAPPY" />
+		<Row TraitType="TRAIT_LEADER_SMILING" ModifierId="TRAIT_UZUKI_CULTURE_ECSTATIC" />
+		<Row TraitType="TRAIT_LEADER_SMILING" ModifierId="TRAIT_UZUKI_GOLD_HAPPY" />
+		<Row TraitType="TRAIT_LEADER_SMILING" ModifierId="TRAIT_UZUKI_GOLD_ECSTATIC" />
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_UZUKI_SCIENCE_HAPPY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_UZUKI</ModifierType>
+			<SubjectRequirementSetId>UZUKI_HAPPINESS_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UZUKI_SCIENCE_ECSTATIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_UZUKI</ModifierType>
+			<SubjectRequirementSetId>UZUKI_HAPPINESS_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UZUKI_PRODUCTION_HAPPY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_UZUKI</ModifierType>
+			<SubjectRequirementSetId>UZUKI_HAPPINESS_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UZUKI_PRODUCTION_ECSTATIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_UZUKI</ModifierType>
+			<SubjectRequirementSetId>UZUKI_HAPPINESS_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UZUKI_FAITH_HAPPY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_UZUKI</ModifierType>
+			<SubjectRequirementSetId>UZUKI_HAPPINESS_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UZUKI_FAITH_ECSTATIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_UZUKI</ModifierType>
+			<SubjectRequirementSetId>UZUKI_HAPPINESS_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UZUKI_CULTURE_HAPPY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_UZUKI</ModifierType>
+			<SubjectRequirementSetId>UZUKI_HAPPINESS_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UZUKI_CULTURE_ECSTATIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_UZUKI</ModifierType>
+			<SubjectRequirementSetId>UZUKI_HAPPINESS_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UZUKI_GOLD_HAPPY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_UZUKI</ModifierType>
+			<SubjectRequirementSetId>UZUKI_HAPPINESS_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UZUKI_GOLD_ECSTATIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_UZUKI</ModifierType>
+			<SubjectRequirementSetId>UZUKI_HAPPINESS_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_UZUKI_SCIENCE_HAPPY</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_HAPPY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UZUKI_SCIENCE_HAPPY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UZUKI_SCIENCE_HAPPY</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row ModifierId="TRAIT_UZUKI_SCIENCE_ECSTATIC" Name="HappinessType" Value="HAPPINESS_ECSTATIC" />
+		<Row ModifierId="TRAIT_UZUKI_SCIENCE_ECSTATIC" Name="YieldType" Value="YIELD_SCIENCE" />
+		<Row ModifierId="TRAIT_UZUKI_SCIENCE_ECSTATIC" Name="Amount" Value="10" />
+		<Row ModifierId="TRAIT_UZUKI_PRODUCTION_HAPPY" Name="HappinessType" Value="HAPPINESS_HAPPY" />
+		<Row ModifierId="TRAIT_UZUKI_PRODUCTION_HAPPY" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="TRAIT_UZUKI_PRODUCTION_HAPPY" Name="Amount" Value="5" />
+		<Row ModifierId="TRAIT_UZUKI_PRODUCTION_ECSTATIC" Name="HappinessType" Value="HAPPINESS_ECSTATIC" />
+		<Row ModifierId="TRAIT_UZUKI_PRODUCTION_ECSTATIC" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="TRAIT_UZUKI_PRODUCTION_ECSTATIC" Name="Amount" Value="10" />
+		<Row ModifierId="TRAIT_UZUKI_FAITH_HAPPY" Name="HappinessType" Value="HAPPINESS_HAPPY" />
+		<Row ModifierId="TRAIT_UZUKI_FAITH_HAPPY" Name="YieldType" Value="YIELD_FAITH" />
+		<Row ModifierId="TRAIT_UZUKI_FAITH_HAPPY" Name="Amount" Value="5" />
+		<Row ModifierId="TRAIT_UZUKI_FAITH_ECSTATIC" Name="HappinessType" Value="HAPPINESS_ECSTATIC" />
+		<Row ModifierId="TRAIT_UZUKI_FAITH_ECSTATIC" Name="YieldType" Value="YIELD_FAITH" />
+		<Row ModifierId="TRAIT_UZUKI_FAITH_ECSTATIC" Name="Amount" Value="10" />
+		<Row ModifierId="TRAIT_UZUKI_CULTURE_HAPPY" Name="HappinessType" Value="HAPPINESS_HAPPY" />
+		<Row ModifierId="TRAIT_UZUKI_CULTURE_HAPPY" Name="YieldType" Value="YIELD_CULTURE" />
+		<Row ModifierId="TRAIT_UZUKI_CULTURE_HAPPY" Name="Amount" Value="5" />
+		<Row ModifierId="TRAIT_UZUKI_CULTURE_ECSTATIC" Name="HappinessType" Value="HAPPINESS_ECSTATIC" />
+		<Row ModifierId="TRAIT_UZUKI_CULTURE_ECSTATIC" Name="YieldType" Value="YIELD_CULTURE" />
+		<Row ModifierId="TRAIT_UZUKI_CULTURE_ECSTATIC" Name="Amount" Value="10" />
+		<Row ModifierId="TRAIT_UZUKI_GOLD_HAPPY" Name="HappinessType" Value="HAPPINESS_HAPPY" />
+		<Row ModifierId="TRAIT_UZUKI_GOLD_HAPPY" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="TRAIT_UZUKI_GOLD_HAPPY" Name="Amount" Value="5" />
+		<Row ModifierId="TRAIT_UZUKI_GOLD_ECSTATIC" Name="HappinessType" Value="HAPPINESS_ECSTATIC" />
+		<Row ModifierId="TRAIT_UZUKI_GOLD_ECSTATIC" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="TRAIT_UZUKI_GOLD_ECSTATIC" Name="Amount" Value="10" />
+	</ModifierArguments>
+
+</GameData>

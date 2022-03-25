@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<IconTextureAtlases>
+		<Row Filename="LeaderUzukiLandsol32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_SHIMAMURA_UZUKI_LANDSOL"/>
+		<Row Filename="LeaderUzukiLandsol45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_SHIMAMURA_UZUKI_LANDSOL"/>
+		<Row Filename="LeaderUzukiLandsol48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_SHIMAMURA_UZUKI_LANDSOL"/>
+		<Row Filename="LeaderUzukiLandsol50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_SHIMAMURA_UZUKI_LANDSOL"/>
+		<Row Filename="LeaderUzukiLandsol55" IconsPerColumn="1" IconsPerRow="1" IconSize="55" Name="ICON_ATLAS_SHIMAMURA_UZUKI_LANDSOL"/>
+		<Row Filename="LeaderUzukiLandsol64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_SHIMAMURA_UZUKI_LANDSOL"/>
+		<Row Filename="LeaderUzukiLandsol80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_SHIMAMURA_UZUKI_LANDSOL"/>
+		<Row Filename="LeaderUzukiLandsol256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_SHIMAMURA_UZUKI_LANDSOL"/>
+		<Row Filename="Landsol256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_LANDSOL_UZUKI"/>
+		<Row Filename="Landsol128" IconsPerColumn="1" IconsPerRow="1" IconSize="128" Name="ICON_ATLAS_LANDSOL_UZUKI"/>
+		<Row Filename="Landsol80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_LANDSOL_UZUKI"/>
+		<Row Filename="Landsol64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_LANDSOL_UZUKI"/>
+		<Row Filename="Landsol50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_LANDSOL_UZUKI"/>
+		<Row Filename="Landsol48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_LANDSOL_UZUKI"/>
+		<Row Filename="LandsolUzuki45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_LANDSOL_UZUKI"/>
+		<Row Filename="Landsol44" IconsPerColumn="1" IconsPerRow="1" IconSize="44" Name="ICON_ATLAS_LANDSOL_UZUKI"/>
+		<Row Filename="Landsol36" IconsPerColumn="1" IconsPerRow="1" IconSize="36" Name="ICON_ATLAS_LANDSOL_UZUKI"/>
+		<Row Filename="Landsol32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_LANDSOL_UZUKI"/>
+		<Row Filename="Landsol30" IconsPerColumn="1" IconsPerRow="1" IconSize="30" Name="ICON_ATLAS_LANDSOL_UZUKI"/>
+		<Row Filename="Landsol22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_LANDSOL_UZUKI"/>
+
+	</IconTextureAtlases>
+		<IconDefinitions>
+			<Row Name="ICON_CIVILIZATION_LANDSOL_UZUKI" Atlas="ICON_ATLAS_LANDSOL_UZUKI" Index="0"/>
+			<Row Name="ICON_LEADER_UZUKI_LANDSOL" Atlas="ICON_ATLAS_SHIMAMURA_UZUKI_LANDSOL" Index="0"/>
+	</IconDefinitions>
+</GameData>

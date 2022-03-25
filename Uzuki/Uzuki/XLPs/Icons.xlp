@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Mishiro45"/>
+			<m_ObjectName text="Mishiro45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mutsuki22"/>
+			<m_ObjectName text="Mutsuki22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mutsuki256"/>
+			<m_ObjectName text="Mutsuki256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mutsuki32"/>
+			<m_ObjectName text="Mutsuki32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mutsuki38"/>
+			<m_ObjectName text="Mutsuki38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mutsuki50"/>
+			<m_ObjectName text="Mutsuki50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mutsuki80"/>
+			<m_ObjectName text="Mutsuki80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Trainer22"/>
+			<m_ObjectName text="Trainer22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Trainer256"/>
+			<m_ObjectName text="Trainer256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Trainer32"/>
+			<m_ObjectName text="Trainer32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Trainer38"/>
+			<m_ObjectName text="Trainer38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Trainer50"/>
+			<m_ObjectName text="Trainer50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Trainer80"/>
+			<m_ObjectName text="Trainer80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mishiro128"/>
+			<m_ObjectName text="Mishiro128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mishiro22"/>
+			<m_ObjectName text="Mishiro22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mishiro256"/>
+			<m_ObjectName text="Mishiro256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mishiro30"/>
+			<m_ObjectName text="Mishiro30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mishiro32"/>
+			<m_ObjectName text="Mishiro32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mishiro36"/>
+			<m_ObjectName text="Mishiro36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mishiro44"/>
+			<m_ObjectName text="Mishiro44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mishiro48"/>
+			<m_ObjectName text="Mishiro48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mishiro50"/>
+			<m_ObjectName text="Mishiro50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mishiro64"/>
+			<m_ObjectName text="Mishiro64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mishiro80"/>
+			<m_ObjectName text="Mishiro80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderUzuki256"/>
+			<m_ObjectName text="LeaderUzuki256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderUzuki32"/>
+			<m_ObjectName text="LeaderUzuki32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderUzuki45"/>
+			<m_ObjectName text="LeaderUzuki45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderUzuki48"/>
+			<m_ObjectName text="LeaderUzuki48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderUzuki50"/>
+			<m_ObjectName text="LeaderUzuki50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderUzuki55"/>
+			<m_ObjectName text="LeaderUzuki55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderUzuki64"/>
+			<m_ObjectName text="LeaderUzuki64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderUzuki80"/>
+			<m_ObjectName text="LeaderUzuki80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

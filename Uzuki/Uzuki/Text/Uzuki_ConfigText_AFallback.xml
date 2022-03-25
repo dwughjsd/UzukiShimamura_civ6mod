@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--English text is placed here so that it can be used for fallbacking.-->
+<GameData>
+	<EnglishText>
+		<Row Tag="LOC_CIVILIZATION_MISHIRO_NAME">
+			<Text>346</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_UZUKI_NAME">
+			<Text>Uzuki Shimamura</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_STARLIGHT_STAGE_NAME">
+			<Text>Starlight Stage</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_STARLIGHT_STAGE_DESCRIPTION">
+			<Text>A district unique to 346 for cultural sites. Replaces the Theater Square district and cheaper to build. [NEWLINE][NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity, if this city does not yet have a Commercial Hub or a Harbor district. Provides 10 [ICON_TOURISM] Tourism after researching Flight.</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_STARLIGHT_STAGE_DESCRIPTION_XP1">
+			<Text>A district unique to 346 for cultural sites. Replaces the Theater Square district and cheaper to build. [NEWLINE][NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity, if this city have an Amphitheater building and does not yet have a Market or a Lighthouse building. Provides 10 [ICON_TOURISM] Tourism after researching Flight.</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_STARLIGHT_STAGE_DESCRIPTION_XP2">
+			<Text>{LOC_DISTRICT_STARLIGHT_STAGE_DESCRIPTION_XP1}</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_STARLIGHT_STAGE_DESCRIPTION_ADJACENCY">
+			<Text>{LOC_DISTRICT_THEATER_DESCRIPTION_ADJACENCY}</Text>
+		</Row>
+
+		<!--
+		<Row Tag="LOC_UNIT_346_MUTSUKI_NAME">
+			<Text>Not Implemented</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_346_MUTSUKI_DESCRIPTION">
+			<Text>Not Implemented</Text>
+		</Row>
+		-->
+
+		<Row Tag="LOC_UNIT_346_TRAINER_NAME">
+			<Text>Trainer</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_346_TRAINER_DESCRIPTION">
+			<Text>346 unique support unit. Adjacent units gain +50% experience.</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_UZUKI">
+			<Text>Chance has come, Uzuki Shimamura, it's time for you to take actions. You always try your best and face all challenges on your path with perisistent optimism. Build magnificent stages to bring smiles to your people, attracting them to support you. Shine in your way, Shimamu, and lead your people to a bright future.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_SMILING_NAME">
+			<Text>Sing, Mile, Smile</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_SMILING_DESCRIPTION">
+			<Text>Each district built in your city provides +1 [ICON_Amenities] Amenity from Civics (up to 5). Your [ICON_TradeRoute] Trade Routes earn +1 [ICON_Culture] Culture for passing through Trading Posts in your own cities. Increases non-[ICON_Food]Food yield benefits of Happiness by 100% in your cities with 2 or more districts including Theater Square district (or its replacement).</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_SMILING_EXPANSION2_DESCRIPTION">
+			<Text>Each district built in your city provides +1 [ICON_Amenities] Amenity from Civics (up to 5). Your [ICON_TradeRoute] Trade Routes earn +1 [ICON_Culture] Culture for passing through Trading Posts in your own cities. Increases non-[ICON_Food]Food yield benefits of Happiness by 50% and receives +1 [ICON_Favor] Diplomatic Favor per turn in your cities with 2 or more districts including Theater Square district (or its replacement). </Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SHINY_STARS_NAME">
+			<Text>Shiny Starlight</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SHINY_STARS_DESCRIPTION">
+			<Text>Receive 25% more [ICON_GreatWriter] Great Writer, [ICON_GreatArtist] Great Artist, [ICON_GreatMusician] Great Musician, [ICON_GreatScientist] Great Scientist, [ICON_GreatEngineer] Great Engineer and [ICON_GreatMerchant] Great Merchant points. Gains +1% [ICON_Gold] Gold for each Great Person it has ever earned, up to a total of +30%. +1 [ICON_Culture] Culture and +4 [ICON_Gold] Gold from each [ICON_GreatWork_Writing] Great Work of Writing, [ICON_GreatWork_Landscape] Great Work of Art and [ICON_GreatWork_Music] Great Work of Music. +100% [ICON_Production] Production toward Monument and Theater Square buildings.</Text>
+		</Row>
+
+	</EnglishText>
+</GameData>

@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--English text is placed here so that it can be used for fallbacking.-->
+<GameData>
+	<EnglishText>
+		<Row Tag="LOC_CIVILIZATION_MISHIRO_DESCRIPTION">
+			<Text>346 Empire</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_MISHIRO_ADJECTIVE">
+			<Text>346</Text>
+		</Row>
+
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_CHAPTER_CAPSULE_BODY">
+			<Text>It's easy and more profitable for Uzuki to maintain [ICON_Amenities] Amenities of cities.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_CHAPTER_DETAILED_BODY">
+			<Text>346 is able to recruit Great People faster, making them competitive in a number of different victories. However, combined with their unique Starlight Stage district they are best at achieving Culture Victory. When playing as Uzuki, it's recommended to keep an eye on [ICON_Amenities] Amenities of cities as her Leader Ability provides considerable bonus [ICON_Amenities] Amenities and boost yields of happy cities.</Text>
+		</Row>
+
+		<!--
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_346_MUTSUKI_CHAPTER_HISTORY_PARA_1">
+			<Text>Not implemented</Text>
+		</Row>
+		-->
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_346_TRAINER_CHAPTER_HISTORY_PARA_1">
+			<Text>Civilopedia entries are not translated</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_STARLIGHT_STAGE_CHAPTER_HISTORY_PARA_1">
+			<Text>Civilopedia entries are not translated</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MISHIRO_CHAPTER_HISTORY_PARA_1">
+			<Text>Civilopedia entries are not translated</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MISHIRO_CHAPTER_HISTORY_PARA_2">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MISHIRO_CHAPTER_HISTORY_PARA_3">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MISHIRO_CHAPTER_HISTORY_PARA_4">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MISHIRO_CHAPTER_HISTORY_PARA_5">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MISHIRO_CHAPTER_HISTORY_PARA_6">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MISHIRO_CHAPTER_HISTORY_PARA_7">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MISHIRO_CHAPTER_HISTORY_PARA_8">
+			<Text></Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_MISHIRO_MALE_1">
+			<Text>Toma</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MALE_2">
+			<Text>Teru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MALE_3">
+			<Text>Ryu</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MALE_4">
+			<Text>Shiki</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MALE_5">
+			<Text>Hayato</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MALE_6">
+			<Text>Suzaku</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MALE_7">
+			<Text>Hokuto</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MALE_8">
+			<Text>Kaoru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MALE_9">
+			<Text>Rei</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MALE_10">
+			<Text>Kyoji</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_MALE_1">
+			<Text>Kyosuke</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_MALE_2">
+			<Text>Hideo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_MALE_3">
+			<Text>Kirio</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_MALE_4">
+			<Text>Shota</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_MALE_5">
+			<Text>Tsubasa</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_MALE_6">
+			<Text>Kei</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_MALE_7">
+			<Text>Yusuke</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_MALE_8">
+			<Text>Seiji</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_MALE_9">
+			<Text>Shoma</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_MALE_10">
+			<Text>Kuro</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_FEMALE_1">
+			<Text>Kotori</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_FEMALE_2">
+			<Text>Haruka</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_FEMALE_3">
+			<Text>Chihaya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_FEMALE_4">
+			<Text>Yukiho</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_FEMALE_5">
+			<Text>Iori</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_FEMALE_6">
+			<Text>Miki</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_FEMALE_7">
+			<Text>Azuki</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_FEMALE_8">
+			<Text>Makoto</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_FEMALE_9">
+			<Text>Hibiki</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_FEMALE_10">
+			<Text>Ritsuko</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_FEMALE_1">
+			<Text>Mano</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_FEMALE_2">
+			<Text>Kogane</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_FEMALE_3">
+			<Text>Kaho</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_FEMALE_4">
+			<Text>Amana</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_FEMALE_5">
+			<Text>Asahi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_FEMALE_6">
+			<Text>Tooru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_FEMALE_7">
+			<Text>Hazuki</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_FEMALE_8">
+			<Text>Chiyoko</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_FEMALE_9">
+			<Text>Rinze</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MISHIRO_MODERN_FEMALE_10">
+			<Text>Hiori</Text>
+		</Row>
+
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CITY_NAME_MAEBASHI">
+			<Text>Maebashi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHIBA">
+			<Text>Chiba</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MIYAZAKI">
+			<Text>Miyazaki</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KOCHI">
+			<Text>Kochi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YAMAGUCHI">
+			<Text>Yamaguchi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KOFU">
+			<Text>Kofu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KANAZAWA">
+			<Text>Kanazawa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WAKAYAMA">
+			<Text>Wakayama</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TSU">
+			<Text>Tsu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_UTSUNOMIYA">
+			<Text>Utsunomiya</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MITO">
+			<Text>Mito</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KUMAMOTO">
+			<Text>Kumamoto</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_OITA">
+			<Text>Oita</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOKUSHIMA">
+			<Text>Tokushima</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_TITLE">
+			<Text>Uzuki Shimamura</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_SUBTITLE">
+			<Text>Cute-type Idol, Leader of New Generations, Primary Heroine of Cinderella Girls</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_UZUKI_QUOTE">
+			<Text>I'm Shimamura Uzuki, I'll do my best!</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_346_TRAINER_NAME">
+			<Text>346 unique unit: Trainer</Text>
+		</Row>
+		<!--
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_346_MUTSUKI_NAME">
+			<Text>Not Implemented</Text>
+		</Row>
+		-->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_STARLIGHT_STAGE_NAME">
+			<Text>346 unique district: Starlight Stage</Text>
+		</Row>
+
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_CHAPTER_HISTORY_PARA_1">
+			<Text>Civilopedia entries are not translated。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_CHAPTER_HISTORY_PARA_2">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_CHAPTER_HISTORY_PARA_3">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_CHAPTER_HISTORY_PARA_4">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_CHAPTER_HISTORY_PARA_5">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_CHAPTER_HISTORY_PARA_6">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_CHAPTER_HISTORY_PARA_7">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_CHAPTER_HISTORY_PARA_8">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_CHAPTER_HISTORY_PARA_9">
+			<Text></Text>
+		</Row>
+
+
+		<!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_UZUKI_ANY">
+			<Text>Such a chance is so rare, and that's the reason we accept!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_UZUKI_ANY">
+			<Text>Oops, we are not ready yet~! We need some more time...!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_UZUKI_ANY">
+			<Text>Let's declare our friendship with smile, and work harder to achieve current goals. Would you?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_UZUKI_ANY">
+			<Text>Let's cooperate!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_UZUKI_ANY">
+			<Text>Well, fine...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_UZUKI_ANY">
+			<Text>See how we will perform - we are not going to be defeated!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_UZUKI_ANY">
+			<Text>Soon you will know how Uzuki's full strength is!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_UZUKI_ANY">
+			<Text>We have received your delegation. Thank you in all sincerity!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_UZUKI_ANY">
+			<Text>We are not ready yet.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_UZUKI_ANY">
+			<Text>Please accept gifts taken by our delegation. We did our best to prepare them.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_UZUKI_ANY">
+			<Text>We will do better!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_UZUKI_ANY">
+			<Text>Whoa...! Please stop~ It by no means shows benefit to do so. (Denounces You)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_UZUKI_ANY">
+			<Text>It's nice to meet you, I'm Uzuki Shimamura! I'll do my very best, so let's make our dreams come true together!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_UZUKI_ANY">
+			<Text>Let's visit our cities nearby, and you will feel all your wishes can be fulfilled there♪</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_UZUKI_ANY">
+			<Text>OK, let's go!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_UZUKI_ANY">
+			<Text>You are now a trending topic in our capital♪ We are also interested by yours.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_UZUKI_ANY">
+			<Text>Let's go on with smile!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_UZUKI_ANY">
+			<Text>Your smiles are even brighter than before!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_UZUKI_ANY">
+			<Text>Please give your people more and more smiles on their faces!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_UZUKI_ANY">
+			<Text>Let's be allies and make our dreams come true together. Would you?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_UZUKI_ANY">
+			<Text>Hah, long live the peace!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_UZUKI_ANY">
+			<Text>For my people, no!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_UZUKI_ANY">
+			<Text>Would you like to stop the war and take a good rest?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_UZUKI_ANY">
+			<Text>You are allowed to pass through the lands we are proud of.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_UZUKI_ANY">
+			<Text>We are not ready yet.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_UZUKI_ANY">
+			<Text>E... Excuse me! I am humbly asking if you allow us to pass through your border.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_UZUKI_ANY">
+			<Text>Even though it can be accidental, please don't set your army here...! Don't do this again.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_UZUKI_ANY">
+			<Text>Didn't I do my best...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_UZUKI_ANY">
+			<Text>Thank you!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_UZUKI_ANY">
+			<Text>Well, fine...</Text>
+		</Row>
+
+		<Row Tag="LOC_STARLIGHT_STAGE_TOURISM">
+			<Text>Starlight Stage district provides +{Amount} [ICON_Tourism] Tourism.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_STARLIGHTSTAGE_CITY_CULTURE">
+			<Text>+{1_num} [ICON_Culture] Culture from the adjacent Commercial Hub.</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_CHRISH_SMILE_NAME">
+			<Text>Chrish Smile</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_CHRISH_SMILE_DESCRIPTION">
+			<Text>Likes civilizations that maintains high [ICON_Amenities] Amenities in their cities. Does not like civilizations that make the citizens in their cities unhappy.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_UZUKI_REASON_ANY">
+			<Text>(Your cities are having few amenities.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_CHRISH_SMILE_LOW_AMENITIES">
+			<Text>Uzuki hopes you to take care of amenities in your cities</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_UZUKI_REASON_ANY">
+			<Text>(Your cities are having many amenities.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_CHRISH_SMILE_HIGH_AMENITIES">
+			<Text>Uzuki are pleased to see your citizens are happy</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_MISHIRO_LOCATION">
+			<Text>For you to construct</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MISHIRO_SIZE">
+			<Text>For you to expand</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MISHIRO_POPULATION">
+			<Text>For you to develop</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MISHIRO_CAPITAL">
+			<Text>For you to decide</Text>
+		</Row>
+
+		<!--
+		<Row Tag="LOC_ABILITY_MUTSUKI_MODIFIER_DESCRIPTION">
+			<Text>Not Implemented</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MUTSUKI_NAME">
+			<Text>Not Implemented</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MUTSUKI_DESCRIPTION">
+			<Text>Not Implemented</Text>
+		</Row>
+		-->
+		<Row Tag="LOC_ABILITY_RECEIVE_346_TRAINER_BONUS_NAME">
+			<Text>Being Trained</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_RECEIVE_346_TRAINER_BONUS_DESCRIPTION">
+			<Text>Gains +50% experience when adjacent to a Trainer.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_346_TRAINER_NAME">
+			<Text>Professional Training</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_346_TRAINER_DESCRIPTION">
+			<Text>Adjacent units gain +50% experience.</Text>
+		</Row>
+	</EnglishText>
+</GameData>

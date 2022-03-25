@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_UZUKI_LANDSOL" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_SMILING_BRAVE" Kind="KIND_TRAIT" />
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_UZUKI_LANDSOL" Name="LOC_LEADER_UZUKI_LANDSOL_NAME" Sex="Female" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<DuplicateLeaders>
+		<Row LeaderType="LEADER_UZUKI" OtherLeaderType="LEADER_UZUKI_LANDSOL"/>
+	</DuplicateLeaders>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_UZUKI_LANDSOL" AgendaType="AGENDA_CHRISH_SMILE"/>
+	</HistoricalAgendas>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_SMILING_BRAVE" Name="LOC_TRAIT_LEADER_SMILING_BRAVE_NAME" Description="LOC_TRAIT_LEADER_SMILING_BRAVE_DESCRIPTION"/>
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_UZUKI_LANDSOL" TraitType="TRAIT_LEADER_SMILING"/>
+		<Row LeaderType="LEADER_UZUKI_LANDSOL" TraitType="TRAIT_LEADER_SMILING_BRAVE"/>
+	</LeaderTraits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_SMILING_BRAVE" ModifierId="TRAIT_SMILING_BRAVE_GOLDEN_AGE_GREAT_GENERAL_MOVEMENT"/>
+		<Row TraitType="TRAIT_LEADER_SMILING_BRAVE" ModifierId="TRAIT_SMILING_BRAVE_GOLDEN_AGE_GREAT_GENERAL_STRENGTH"/>
+		<Row TraitType="TRAIT_LEADER_SMILING_BRAVE" ModifierId="TRAIT_SMILING_BRAVE_GOLDEN_AGE_WILDCARD_SLOT"/>
+		<Row TraitType="TRAIT_LEADER_SMILING_BRAVE" ModifierId="TRAIT_SMILING_BRAVE_CULTURAL_QUEST"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_SMILING_BRAVE_GOLDEN_AGE_GREAT_GENERAL_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>LANDSOL_PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SMILING_BRAVE_GOLDEN_AGE_GREAT_GENERAL_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>LANDSOL_PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SMILING_BRAVE_CULTURAL_QUEST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLAYER_ERA_SCORE_PER_CIVIC_BOOST</ModifierType>
+			<SubjectRequirementSetId>LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SMILING_BRAVE_GOLDEN_AGE_WILDCARD_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>LANDSOL_PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_SMILING_BRAVE_GOLDEN_AGE_GREAT_GENERAL_MOVEMENT</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_GENERAL_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SMILING_BRAVE_GOLDEN_AGE_GREAT_GENERAL_STRENGTH</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_GENERAL_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SMILING_BRAVE_CULTURAL_QUEST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SMILING_BRAVE_GOLDEN_AGE_WILDCARD_SLOT</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+	</ModifierArguments>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_UZUKI_LANDSOL" Quote="LOC_LEADER_UZUKI_QUOTE"/>
+	</LeaderQuotes>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" LeaderType="LEADER_UZUKI_LANDSOL" CapitalName="LOC_CITY_NAME_LANDSOL" />
+	</CivilizationLeaders>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>LANDSOL_PLAYER_HAS_GOLDEN_AGE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>LANDSOL_PLAYER_HAS_GOLDEN_AGE</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_GOLDEN_AGE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>LANDSOL_PLAYER_HAS_GOLDEN_AGE</RequirementSetId>
+			<RequirementId>PLAYER_IS_LANDSOL</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+</GameData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<EnglishText>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_UZUKI_DESCRIPTION">
+			<Text>Grant an extra unique leader trait {LOC_TRAIT_LEADER_SMILING_BRAVE_NAME} to Uzuki: {LOC_TRAIT_LEADER_SMILING_BRAVE_DESCRIPTION}</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_SMILING_BRAVE_NAME">
+			<Text>Smiling Bravery</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_UZUKI_LANDSOL_NAME">
+			<Text>Uzuki Shimamura (Landsol)</Text>
+		</Row>
+
+		<Replace Tag="LOC_LEADER_UZUKI_NAME">
+			<Text>Uzuki Shimamura (346)</Text>
+		</Replace>
+		
+		<Row Tag="LOC_TRAIT_LEADER_SMILING_BRAVE_DESCRIPTION">
+			<Text>The bonus happiness benefits of Sing, Mile, Smile trait is granted without the need of a Theater Square district. Gain +1 Era Score each time you trigger an [ICON_CivicBoosted] Inspiration. When in a Golden Age: One extra Wildcard policy slot, all land units receive bonus [ICON_Movement] Movement and [ICON_Strength] Combat Strength from Great General.</Text>
+		</Row>
+	</EnglishText>
+</GameData>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Types>
+		<Row Type="UNIT_346_TRAINER" Kind="KIND_UNIT" />
+		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Kind="KIND_ABILITY" />
+		<Row Type="ABILITY_346_TRAINER" Kind="KIND_ABILITY" />
+		<!--<Row Type="UNIT_346_MUTSUKI" Kind="KIND_UNIT" />
+		<Row Type="ABILITY_MUTSUKI" Kind="KIND_ABILITY"/>-->
+	</Types>
+
+
+	<Units>
+		<Row>
+			<UnitType>UNIT_346_TRAINER</UnitType>
+			<Name>LOC_UNIT_346_TRAINER_NAME</Name>
+			<Description>LOC_UNIT_346_TRAINER_DESCRIPTION</Description>
+			<BaseSightRange>2</BaseSightRange>
+			<BaseMoves>3</BaseMoves>
+			<Domain>DOMAIN_LAND</Domain>
+			<FormationClass>FORMATION_CLASS_SUPPORT</FormationClass>
+			<Cost>85</Cost>
+			<ZoneOfControl>false</ZoneOfControl>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
+			<TraitType>TRAIT_CIVILIZATION_UNIT_346_TRAINER</TraitType>
+			<Maintenance>3</Maintenance>
+			<PromotionClass>PROMOTION_CLASS_SUPPORT</PromotionClass>
+			<PrereqCivic>CIVIC_MILITARY_TRAINING</PrereqCivic>
+		</Row>
+		<!--
+		<Row>
+			<UnitType>UNIT_346_MUTSUKI</UnitType>
+			<Name>LOC_UNIT_346_MUTSUKI_NAME</Name>
+			<Description>LOC_UNIT_346_MUTSUKI_DESCRIPTION</Description>
+			<BaseSightRange>3</BaseSightRange>
+			<BaseMoves>4</BaseMoves>
+			<Domain>DOMAIN_SEA</Domain>
+			<FormationClass>FORMATION_CLASS_NAVAL</FormationClass>
+			<Cost>470</Cost>
+			<ZoneOfControl>true</ZoneOfControl>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
+			<Maintenance>6</Maintenance>
+			<TraitType>TRAIT_CIVILIZATION_UNIT_346_MUTSUKI</TraitType>
+			<PromotionClass>PROMOTION_CLASS_NAVAL_MELEE</PromotionClass>
+			<Combat>70</Combat>
+			<AntiAirCombat>85</AntiAirCombat>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+		</Row>
+		-->
+	</Units>
+	<!--
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_346_MUTSUKI" ReplacesUnitType="UNIT_IRONCLAD"/>
+	</UnitReplaces>
+		-->
+
+	<UnitAIInfos>
+		<!--
+		<Row UnitType="UNIT_346_MUTSUKI" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_346_MUTSUKI" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_346_MUTSUKI" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_346_MUTSUKI" AiType="UNITTYPE_NAVAL"/>
+		-->
+		<Row UnitType="UNIT_346_TRAINER" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+	</UnitAIInfos>
+
+	<!--
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_346_TRAINER" PrereqBuilding="BUILDING_BARRACKS"/>
+	</Unit_BuildingPrereqs>
+	-->
+	
+	<Tags>
+		<!--
+		<Row Tag="CLASS_MUTSUKI" Vocabulary="ABILITY_CLASS"/>
+		-->
+		<Row Tag="CLASS_346_TRAINER" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+
+	<TypeTags>
+		<!--
+		<Row Type="UNIT_346_MUTSUKI" Tag="CLASS_MUTSUKI"/>
+		<Row Type="UNIT_346_MUTSUKI" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="UNIT_346_MUTSUKI" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_346_MUTSUKI" Tag="CLASS_ANTI_AIR"/>
+		<Row Type="ABILITY_MUTSUKI" Tag="CLASS_MUTSUKI"/>
+		-->
+		<Row Type="UNIT_346_TRAINER" Tag="CLASS_346_TRAINER"/>
+		<Row Type="ABILITY_346_TRAINER" Tag="CLASS_346_TRAINER"/>
+		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_AIRCRAFT"/>
+	</TypeTags>
+	
+	
+
+	<UnitAbilities>
+		<!--
+		<Row UnitAbilityType="ABILITY_MUTSUKI" Name="LOC_ABILITY_MUTSUKI_NAME" Description="LOC_ABILITY_MUTSUKI_DESCRIPTION"/>
+		-->
+		<Row UnitAbilityType="ABILITY_346_TRAINER" Name="LOC_ABILITY_346_TRAINER_NAME" Description="LOC_ABILITY_346_TRAINER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_RECEIVE_346_TRAINER_BONUS" Name="LOC_ABILITY_RECEIVE_346_TRAINER_BONUS_NAME" Description="LOC_ABILITY_RECEIVE_346_TRAINER_BONUS_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<!--
+		<Row>
+			<UnitAbilityType>ABILITY_MUTSUKI</UnitAbilityType>
+			<ModifierId>MUTSUKI_ANTI_NAVAL_RAIDER_COMBAT_BONUS</ModifierId>
+		</Row>
+		-->
+		<Row>
+			<UnitAbilityType>ABILITY_346_TRAINER</UnitAbilityType>
+			<ModifierId>346_TRAINER_EXPERIENCE_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_RECEIVE_346_TRAINER_BONUS</UnitAbilityType>
+			<ModifierId>RECEIVE_346_TRAINER_EXPERIENCE_BONUS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+
+	<Modifiers>
+		<!--
+		<Row>
+			<ModifierId>MUTSUKI_ANTI_NAVAL_RAIDER_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>ANTI_NAVAL_RAIDER_OPPONENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		-->
+		<Row>
+			<ModifierId>346_TRAINER_EXPERIENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>ADJACENT_346_TRAINER_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>RECEIVE_346_TRAINER_EXPERIENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>ADJACENT_346_TRAINER_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--
+		<Row>
+			<ModifierId>MUTSUKI_ANTI_NAVAL_RAIDER_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		-->
+		<Row>
+			<ModifierId>346_TRAINER_EXPERIENCE_BONUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_RECEIVE_346_TRAINER_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>RECEIVE_346_TRAINER_EXPERIENCE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+
+
+	<ModifierStrings>
+		<Row ModifierId="RECEIVE_346_TRAINER_EXPERIENCE_BONUS" Context="Preview" Text="LOC_ABILITY_RECEIVE_346_TRAINER_BONUS_DESCRIPTION"/>
+		<!--
+		<Row ModifierId="MUTSUKI_ANTI_NAVAL_RAIDER_COMBAT_BONUS" Context="Preview" Text="LOC_ABILITY_MUTSUKI_MODIFIER_DESCRIPTION"/>
+		-->
+	</ModifierStrings>
+
+	
+	<RequirementSets>
+		<!--
+		<Row>
+			<RequirementSetId>ANTI_NAVAL_RAIDER_OPPONENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		-->
+		<Row>
+			<RequirementSetId>ADJACENT_346_TRAINER_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	
+	<RequirementSetRequirements>
+		<!--
+		<Row>
+			<RequirementSetId>ANTI_NAVAL_RAIDER_OPPONENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ANTI_NAVAL_RAIDER_OPPONENT_REQUIREMENT</RequirementId>
+		</Row>
+		-->
+		<Row>
+			<RequirementSetId>ADJACENT_346_TRAINER_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ADJACENT_FRIENDLY_346_TRAINER_REQUIREMENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	
+	<Requirements>
+		<!--
+		<Row>
+			<RequirementId>ANTI_NAVAL_RAIDER_OPPONENT_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		-->
+		<Row>
+			<RequirementId>ADJACENT_FRIENDLY_346_TRAINER_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>	
+	</Requirements>
+	
+	<RequirementArguments>
+		<!--
+		<Row>
+			<RequirementId>ANTI_NAVAL_RAIDER_OPPONENT_REQUIREMENT</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_RAIDER</Value>
+		</Row>
+		-->
+		<Row>
+			<RequirementId>ADJACENT_FRIENDLY_346_TRAINER_REQUIREMENT</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_346_TRAINER</Value>
+		</Row>
+	</RequirementArguments>
+	
+	<UnitUpgrades>
+		<!--
+		<Row Unit="UNIT_346_MUTSUKI" UpgradeUnit="UNIT_DESTROYER"/>
+		-->
+	</UnitUpgrades>
+	
+</GameData>

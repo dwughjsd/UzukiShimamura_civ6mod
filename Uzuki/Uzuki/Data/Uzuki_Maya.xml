@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	 <!--This is no longer needed after Feb 2021 update.
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_STARLIGHT_STAGE" YieldChangeId="Paititi_Culture"/>
+	</District_Adjacencies>
+	-->
+</GameData>

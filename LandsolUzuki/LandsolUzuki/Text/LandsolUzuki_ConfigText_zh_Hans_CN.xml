@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_UZUKI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为卯月增加一个额外的领袖特性“{LOC_TRAIT_LEADER_SMILING_BRAVE_NAME}”：{LOC_TRAIT_LEADER_SMILING_BRAVE_DESCRIPTION}</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_SMILING_BRAVE_NAME" Language="zh_Hans_CN">
+			<Text>微笑勇气</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_UZUKI_LANDSOL_NAME" Language="zh_Hans_CN">
+			<Text>岛村卯月（兰德索尔）</Text>
+		</Row>
+
+		<Replace Tag="LOC_LEADER_UZUKI_NAME" Language="zh_Hans_CN">
+			<Text>岛村卯月（346）</Text>
+		</Replace>
+		
+		<Row Tag="LOC_TRAIT_LEADER_SMILING_BRAVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>“歌唱、长路、笑容”提供的幸福感益处提升无需剧院广场。每次触发 [ICON_CivicBoosted] 鼓舞+1时代得分。进入黄金时代时：陆地单位获得大将军提供的 [ICON_Movement] 移动力与 [ICON_Strength] 战斗力加成；获得一个额外的通配符政策槽位。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Filename="LeaderUzuki32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_SHIMAMURA_UZUKI"/>
+		<Row Filename="LeaderUzuki45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_SHIMAMURA_UZUKI"/>
+		<Row Filename="LeaderUzuki48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_SHIMAMURA_UZUKI"/>
+		<Row Filename="LeaderUzuki50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_SHIMAMURA_UZUKI"/>
+		<Row Filename="LeaderUzuki55" IconsPerColumn="1" IconsPerRow="1" IconSize="55" Name="ICON_ATLAS_SHIMAMURA_UZUKI"/>
+		<Row Filename="LeaderUzuki64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_SHIMAMURA_UZUKI"/>
+		<Row Filename="LeaderUzuki80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_SHIMAMURA_UZUKI"/>
+		<Row Filename="LeaderUzuki256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_SHIMAMURA_UZUKI"/>
+		
+		<Row Filename="Mishiro256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_MISHIRO"/>
+		<Row Filename="Mishiro128" IconsPerColumn="1" IconsPerRow="1" IconSize="128" Name="ICON_ATLAS_MISHIRO"/>
+		<Row Filename="Mishiro80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_MISHIRO"/>
+		<Row Filename="Mishiro64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_MISHIRO"/>
+		<Row Filename="Mishiro50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_MISHIRO"/>
+		<Row Filename="Mishiro48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_MISHIRO"/>
+		<Row Filename="Mishiro45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_MISHIRO"/>
+		<Row Filename="Mishiro44" IconsPerColumn="1" IconsPerRow="1" IconSize="44" Name="ICON_ATLAS_MISHIRO"/>
+		<Row Filename="Mishiro36" IconsPerColumn="1" IconsPerRow="1" IconSize="36" Name="ICON_ATLAS_MISHIRO"/>
+		<Row Filename="Mishiro32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_MISHIRO"/>
+		<Row Filename="Mishiro30" IconsPerColumn="1" IconsPerRow="1" IconSize="30" Name="ICON_ATLAS_MISHIRO"/>
+		<Row Filename="Mishiro22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_MISHIRO"/>
+
+		<!--
+		<Row Filename="Mutsuki256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_MUTSUKI"/>
+		<Row Filename="Mutsuki80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_MUTSUKI"/>
+		<Row Filename="Mutsuki50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_MUTSUKI"/>
+		<Row Filename="Mutsuki38" IconsPerColumn="1" IconsPerRow="1" IconSize="38" Name="ICON_ATLAS_MUTSUKI"/>
+		<Row Filename="Mutsuki32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_MUTSUKI"/>
+		<Row Filename="Mutsuki22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_MUTSUKI"/>
+-->
+		<Row Filename="Trainer256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_TRAINER"/>
+		<Row Filename="Trainer80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_TRAINER"/>
+		<Row Filename="Trainer50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_TRAINER"/>
+		<Row Filename="Trainer38" IconsPerColumn="1" IconsPerRow="1" IconSize="38" Name="ICON_ATLAS_TRAINER"/>
+		<Row Filename="Trainer32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_TRAINER"/>
+		<Row Filename="Trainer22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_TRAINER"/>
+
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_MISHIRO" Atlas="ICON_ATLAS_MISHIRO" Index="0"/>
+		<Row Name="ICON_LEADER_UZUKI" Atlas="ICON_ATLAS_SHIMAMURA_UZUKI" Index="0"/>
+		<Row Name="ICON_DISTRICT_STARLIGHT_STAGE" Atlas="ICON_ATLAS_DISTRICTS" Index="8"/>
+		<Row Name="ICON_DISTRICT_STARLIGHT_STAGE_FOW"   Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="8"/>
+		<Row Name="DISTRICT_STARLIGHT_STAGE" Index="182" Atlas="ICON_ATLAS_FONT_ICON_BASELINE_4"/>
+		<!--
+		<Row Name="ICON_UNIT_346_MUTSUKI" Atlas="ICON_ATLAS_MUTSUKI" Index="0"/>
+		<Row Name="ICON_UNIT_346_MUTSUKI_FOW" Atlas="ICON_ATLAS_MUTSUKI" Index="0"/>
+		<Row Name="ICON_UNIT_346_MUTSUKI_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="19"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_346_MUTSUKI_PORTRAIT" Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2" Index="19"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_346_MUTSUKI_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2" Index="19"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_346_MUTSUKI_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="19"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_346_MUTSUKI_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2" Index="19"/>
+		-->
+		<Row Name="ICON_UNIT_346_TRAINER" Atlas="ICON_ATLAS_TRAINER" Index="0"/>
+		<Row Name="ICON_UNIT_346_TRAINER_FOW" Atlas="ICON_ATLAS_TRAINER" Index="0"/>
+		<Row Name="ICON_UNIT_346_TRAINER_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="8"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_346_TRAINER_PORTRAIT" Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS" Index="8"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_346_TRAINER_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS" Index="8"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_346_TRAINER_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="8"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_346_TRAINER_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS" Index="8"/>
+	</IconDefinitions>
+</GameData>

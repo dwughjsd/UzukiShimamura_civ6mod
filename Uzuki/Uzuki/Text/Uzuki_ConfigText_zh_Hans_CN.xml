@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_MISHIRO_NAME" Language="zh_Hans_CN">
+			<Text>346</Text>
+		</Row>
+		
+		<Row Tag="LOC_LEADER_UZUKI_NAME" Language="zh_Hans_CN">
+			<Text>岛村卯月</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_STARLIGHT_STAGE_NAME" Language="zh_Hans_CN">
+			<Text>星光舞台</Text>
+		</Row>
+
+		<!--DEPRECATED:每个商业中心为其提供+2 [ICON_Culture] 文化值加成。-->
+		<Row Tag="LOC_DISTRICT_STARLIGHT_STAGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>346特色文化活动区域，替代剧院广场，建造费用更低。[NEWLINE][NEWLINE]如此城尚未拥有商业中心或港口区域，[ICON_TradeRoute] 贸易路线容量+1。研发“飞行”科技后可提供10 [ICON_Tourism] 旅游业绩。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_STARLIGHT_STAGE_DESCRIPTION_XP1" Language="zh_Hans_CN">
+			<Text>346特色文化活动区域，替代剧院广场，建造费用更低。[NEWLINE][NEWLINE]如此城建有古罗马剧场且尚未建有灯塔或市场，[ICON_TradeRoute] 贸易路线容量+1。研发“飞行”科技后可提供10 [ICON_Tourism] 旅游业绩。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_STARLIGHT_STAGE_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>{LOC_DISTRICT_STARLIGHT_STAGE_DESCRIPTION_XP1}</Text>
+		</Row>
+
+		<!--DEPRECATED:从每个相邻商业中心区域获得大额 [ICON_Culture] 文化加成。-->
+		<Row Tag="LOC_DISTRICT_STARLIGHT_STAGE_DESCRIPTION_ADJACENCY" Language="zh_Hans_CN">
+			<Text>{LOC_DISTRICT_THEATER_DESCRIPTION_ADJACENCY}</Text>
+		</Row>
+		
+
+
+		<!--
+		<Row Tag="LOC_UNIT_346_MUTSUKI_NAME" Language="zh_Hans_CN">
+			<Text>睦月型驱逐舰</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_346_MUTSUKI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>岛村卯月作为领袖时的346特色现代海军近战单位。取代装甲舰，通过钢铁科技解锁。显示视线范围内的海军掠袭单位，对海军掠袭单位+7 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		-->
+
+		<Row Tag="LOC_UNIT_346_TRAINER_NAME" Language="zh_Hans_CN">
+			<Text>训练员</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_346_TRAINER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>346特色支援单位，使邻接单位获得+50%战斗经验值。</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_UZUKI" Language="zh_Hans_CN">
+			<Text>机会已在眼前，岛村卯月，正是您必须做出行动的时刻。您努力不懈，以始终如一的乐观面对路途上的一切挑战。建立起华丽的舞台为您的人民带来笑容，吸引着他们与您同行。以自己的方式闪耀吧，小岛岛，将您的人民带领向光辉的明天。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_SMILING_NAME" Language="zh_Hans_CN">
+			<Text>歌唱、长路、笑容</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_SMILING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市中建成的每个特色区域提供+1 [ICON_Amenities] 来自市政的宜居度（上限为5）。您的商路途经您每个国内城市的贸易站时获得+1 [ICON_Culture] 文化。建有包括剧院广场（或其替代者）的2个特色区域的城市非 [ICON_Food] 食物产出的幸福感益处提升100%。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_SMILING_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市中建成的每个特色区域提供+1 [ICON_Amenities] 来自市政的宜居度（上限为5）。您的商路途经您每个国内城市的贸易站时获得+1 [ICON_Culture] 文化。建有包括剧院广场（或其替代者）的2个特色区域的城市非 [ICON_Food] 食物产出的幸福感益处提升50%，并获得每回合+1 [ICON_Favor] 外交支持。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SHINY_STARS_NAME" Language="zh_Hans_CN">
+			<Text>熠熠星辉</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SHINY_STARS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>额外获得25%的 [ICON_GreatWriter] 大文学家、 [ICON_GreatArtist] 大美术家、 [ICON_GreatMusician] 大音乐家、 [ICON_GreatScientist] 大科学家、 [ICON_GreatEngineer] 大工程师以及 [ICON_GreatMerchant] 大商业家点数。每获得1位伟人，[ICON_Gold] 金币便+1%（上限为+30%）。每件 [ICON_GreatWork_Writing] 著作巨作、 [ICON_GreatWork_Landscape] 艺术巨作和 [ICON_GreatWork_Music] 音乐巨作+1 [ICON_Culture] 文化、 +4 [ICON_Gold] 金币。修建纪念碑和剧院广场建筑时+100% [ICON_Production] 生产力。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

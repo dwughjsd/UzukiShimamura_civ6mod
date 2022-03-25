@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_STARLIGHT_STAGE" YieldChangeId="LeyLine_Culture"/>
+	</District_Adjacencies>
+	<!--Workaround for the issue that the faster monument construction trait of 346 has no effect on old god obelisk building.-->
+	<GovernorPromotionModifiers>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_VOIDSINGERS_1</GovernorPromotionType>
+			<ModifierId>TRAIT_SHINY_STARS_FASTER_OLD_GOD_OBELISK_CONSTRUCTION</ModifierId>
+		</Row>
+	</GovernorPromotionModifiers>
+	<Modifiers>
+		<Row ModifierId="TRAIT_SHINY_STARS_FASTER_OLD_GOD_OBELISK_CONSTRUCTION" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION" SubjectRequirementSetId="SECRETSOCIETIES_PLAYER_346_REQUIREMENTS"/>
+	</Modifiers>
+	<RequirementSets>
+		<Row RequirementSetId="SECRETSOCIETIES_PLAYER_346_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="SECRETSOCIETIES_PLAYER_346_REQUIREMENTS" RequirementId="SECRETSOCIETIES_PLAYER_IS_346"/>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="SECRETSOCIETIES_PLAYER_IS_346" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="SECRETSOCIETIES_PLAYER_IS_346" Name="CivilizationType" Value="CIVILIZATION_MISHIRO"/>
+	</RequirementArguments>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_SHINY_STARS_FASTER_OLD_GOD_OBELISK_CONSTRUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_OLD_GOD_OBELISK</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SHINY_STARS_FASTER_OLD_GOD_OBELISK_CONSTRUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+	<!--Workaround ends here-->
+</GameData>

@@ -1,0 +1,3 @@
+-- UPDATE ModifierArguments SET Value = Value || ",
+--        DISTRICT_STARLIGHT_STAGE" WHERE (ModifierId = "INDUSTRY_BUILDING_DISCOUNT" OR ModifierId = "CORPORATION_BUILDING_DISCOUNT" OR ModifierId = "PRODUCT_BUILDING_DISCOUNT_GYPSUM" OR ModifierId = "PRODUCT_BUILDING_DISCOUNT_MARBLE") AND Name = "DistrictType";
+--This file is not needed at all since all buildings in the unique district is inherited from DISTRICT_THEATER. Fuck Firaxis

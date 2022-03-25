@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Leaders>
+		<Update>
+			<Where LeaderType="LEADER_UZUKI"/>
+			<Set>
+				<Sex>Female</Sex>
+			</Set>
+		</Update>
+	</Leaders>
+
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_STARLIGHT_STAGE"/>
+			<Set>
+				<Description>LOC_DISTRICT_STARLIGHT_STAGE_DESCRIPTION_XP1</Description>
+			</Set>
+		</Update>
+	</Districts>
+
+	<Modifiers>
+		<Update>
+			<Where ModifierId="STARLIGHT_STAGE_TRADE_ROUTE_CAPACITY"/>
+			<Set>
+				<SubjectRequirementSetId>STARLIGHT_STAGE_TRADE_ROUTE_CAPACITY_REQUIREMENTS_XP1</SubjectRequirementSetId>
+			</Set>
+		</Update>
+	</Modifiers>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>STARLIGHT_STAGE_TRADE_ROUTE_CAPACITY_REQUIREMENTS_XP1</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>STARLIGHT_STAGE_TRADE_ROUTE_CAPACITY_REQUIREMENTS_XP1</RequirementSetId>
+			<RequirementId>REQUIRES_NO_MARKET</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>STARLIGHT_STAGE_TRADE_ROUTE_CAPACITY_REQUIREMENTS_XP1</RequirementSetId>
+			<RequirementId>REQUIRES_NO_LIGHTHOUSE_UZUKI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>STARLIGHT_STAGE_TRADE_ROUTE_CAPACITY_REQUIREMENTS_XP1</RequirementSetId>
+			<RequirementId>REQUIRES_AMPHITHEATER_UZUKI</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_NO_LIGHTHOUSE_UZUKI</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_AMPHITHEATER_UZUKI</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_NO_LIGHTHOUSE_UZUKI</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_LIGHTHOUSE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_NO_LIGHTHOUSE_UZUKI</RequirementId>
+			<Name>MustBeFunctioning</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_AMPHITHEATER_UZUKI</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_AMPHITHEATER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_AMPHITHEATER_UZUKI</RequirementId>
+			<Name>MustBeFunctioning</Name>
+			<Value>false</Value>
+		</Row>
+	</RequirementArguments>
+	
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_346_TRAINER" Texture="Moment_4StarUnit.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_STARLIGHT_STAGE" Texture="Moment_DistrictBuiltTheatre.dds"/>
+		<!--<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_346_MUTSUKI" Texture="Moment_FirstSeaUnitMid.dds"/>-->
+	</MomentIllustrations>
+
+
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_STARLIGHT_STAGE" YieldChangeId="Government_Culture"/>
+	</District_Adjacencies>
+
+</GameData>
