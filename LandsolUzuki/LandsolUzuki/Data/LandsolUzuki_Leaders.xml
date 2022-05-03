@@ -77,20 +77,20 @@
 		<Row CivilizationType="CIVILIZATION_LANDSOL" LeaderType="LEADER_UZUKI_LANDSOL" CapitalName="LOC_CITY_NAME_LANDSOL" />
 	</CivilizationLeaders>
 	<RequirementSets>
-		<Row>
+		<InsertOrIgnore>
 			<RequirementSetId>LANDSOL_PLAYER_HAS_GOLDEN_AGE</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
+		</InsertOrIgnore>
 	</RequirementSets>
 	<RequirementSetRequirements>
-		<Row>
+		<InsertOrIgnore>
 			<RequirementSetId>LANDSOL_PLAYER_HAS_GOLDEN_AGE</RequirementSetId>
 			<RequirementId>REQUIRES_PLAYER_HAS_GOLDEN_AGE</RequirementId>
-		</Row>
-		<Row>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
 			<RequirementSetId>LANDSOL_PLAYER_HAS_GOLDEN_AGE</RequirementSetId>
 			<RequirementId>PLAYER_IS_LANDSOL</RequirementId>
-		</Row>
+		</InsertOrIgnore>
 	</RequirementSetRequirements>
 
 </GameData>
