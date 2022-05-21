@@ -6,7 +6,7 @@
 			<Text>Uzuki Shimamura</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_LANDSOL_TAB_NAME">
-			<Text>Uzuki Shimamura (Landsol)</Text>
+			<Text>Uzuki Shimamura (Landosol)</Text>
 		</Row>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_TAB_NAME">
 			<Text>Uzuki Shimamura (346)</Text>
@@ -15,7 +15,7 @@
 			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_CHAPTER_CAPSULE_BODY}</Text>
 		</Row>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_CHAPTER_DETAILED_BODY">
-			<Text>Uzuki Shimamura can rule either Landsol or 346 civilization. She can gain additional [ICON_Amenities] Amenities and [ICON_Favor] Diplomatic Favor by building districts and benefits more from bonus Amenities. While she can achieve Cultural Victory fastly playing as 346, her abilities help her to conquer the world when playing as Landsol.</Text>
+			<Text>Uzuki Shimamura can rule either Landosol or 346 civilization. She can gain additional [ICON_Amenities] Amenities and [ICON_Favor] Diplomatic Favor by building districts and benefits more from bonus Amenities. While she can achieve Cultural Victory fastly playing as 346, her abilities help her to conquer the world when playing as Landosol.</Text>
 		</Replace>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_LANDSOL_CHAPTER_DETAILED_BODY">
 			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_CHAPTER_DETAILED_BODY}</Text>
