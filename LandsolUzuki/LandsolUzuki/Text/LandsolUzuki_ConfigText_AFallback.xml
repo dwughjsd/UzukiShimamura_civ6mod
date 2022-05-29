@@ -2,7 +2,7 @@
 <GameData>
 	<EnglishText>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_UZUKI_DESCRIPTION">
-			<Text>Grants an extra unique leader trait {LOC_TRAIT_LEADER_SMILING_BRAVE_NAME} to Uzuki: {LOC_TRAIT_LEADER_SMILING_BRAVE_DESCRIPTION}</Text>
+			<Text>Grants an extra leader trait {LOC_TRAIT_LEADER_SMILING_BRAVE_NAME} to Uzuki: {LOC_TRAIT_LEADER_SMILING_BRAVE_DESCRIPTION}</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_SMILING_BRAVE_NAME">
