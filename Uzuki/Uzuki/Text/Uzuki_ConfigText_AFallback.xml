@@ -61,7 +61,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_SMILING_EXPANSION2_DESCRIPTION">
-			<Text>Each district built in your city provides +1 [ICON_Amenities] Amenity from Civics (up to 5). Your [ICON_TradeRoute] Trade Routes earn +1 [ICON_Culture] Culture for passing through Trading Posts in your own cities. Increases non-[ICON_Food]Food yield benefits of Happiness by 50% and receives +1 [ICON_Favor] Diplomatic Favor per turn in your cities with 2 or more districts including Theater Square district (or its replacement). </Text>
+			<Text>Each district built in your city provides +1 [ICON_Amenities] Amenity from Civics (up to 5). Your [ICON_TradeRoute] Trade Routes earn +1 [ICON_Culture] Culture for passing through Trading Posts in your own cities. Increases non-[ICON_Food]Food yield benefits of Happiness by 50% and receives +1 [ICON_Favor] Diplomatic Favor per turn in your cities with 2 or more districts including Theater Square district (or its replacement).</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_SHINY_STARS_NAME">
