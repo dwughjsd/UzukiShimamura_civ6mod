@@ -16,6 +16,10 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
 			<Text>346可以更快招募伟人，使得他们有力竞争多种胜利方式。不过，结合特色城区“星光舞台”，他们还是最擅长取得文化胜利。使用卯月进行游戏时，最好留心城市的 [ICON_Amenities] 宜居度，因为她的领袖能力能提供数量可观的额外 [ICON_Amenities] 宜居度，并提升快乐的城市的产出。</Text>
 		</Row>
+
+		<Replace Tag="LOC_ABILITY_GRANT_MOVEMENT_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为从1单元格外开始移动的单位+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
 		
 		<!--
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_346_MUTSUKI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
@@ -459,17 +463,5 @@
 			<Text>迎战海军掠袭单位+7 [ICON_Strength] 战斗力。</Text>
 		</Row>
 		-->
-		<Row Tag="LOC_ABILITY_RECEIVE_346_TRAINER_BONUS_NAME" Language="zh_Hans_CN">
-			<Text>受到训练</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_RECEIVE_346_TRAINER_BONUS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>邻接训练员时经验值获取增加50%。</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_346_TRAINER_NAME" Language="zh_Hans_CN">
-			<Text>专业训练</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_346_TRAINER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>附近军事单位经验值获取增加50%。</Text>
-		</Row>
 	</LocalizedText>
 </GameData>

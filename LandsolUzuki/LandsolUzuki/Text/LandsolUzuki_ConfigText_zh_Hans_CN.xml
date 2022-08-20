@@ -5,6 +5,10 @@
 			<Text>为卯月增加一个额外的领袖特性“{LOC_TRAIT_LEADER_SMILING_BRAVE_NAME}”：{LOC_TRAIT_LEADER_SMILING_BRAVE_DESCRIPTION}</Text>
 		</Row>
 
+		<Row Tag="LOC_TRAIT_NEW_GENERATIONS_BONUS" Language="zh_Hans_CN">
+			<Text>[NEWLINE][NEWLINE]公会之家加成：每座市政广场建筑为您城市中的所有公会之家 +1 [ICON_Science] 科技值、 +1 [ICON_Culture] 文化值以及 +1 [ICON_Production] 生产力。</Text>
+		</Row>
+
 		<Row Tag="LOC_TRAIT_LEADER_SMILING_BRAVE_NAME" Language="zh_Hans_CN">
 			<Text>微笑勇气</Text>
 		</Row>
@@ -18,7 +22,7 @@
 		</Replace>
 		
 		<Row Tag="LOC_TRAIT_LEADER_SMILING_BRAVE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>“歌唱、长路、笑容”提供的幸福感益处提升无需剧院广场。每次触发 [ICON_CivicBoosted] 鼓舞+1时代得分。进入黄金时代时：陆地单位获得大将军提供的 [ICON_Movement] 移动力与 [ICON_Strength] 战斗力加成；获得一个额外的通配符政策槽位。</Text>
+			<Text>“歌唱、长路、笑容”提供的幸福感益处提升无需剧院广场。每次触发 [ICON_CivicBoosted] 鼓舞+1时代得分。进入黄金时代时：陆地单位获得 +1 [ICON_Movement] 移动力与 +5 [ICON_Strength] 战斗力；获得一个额外的通配符政策槽位。{LOC_TRAIT_NEW_GENERATIONS_BONUS}</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

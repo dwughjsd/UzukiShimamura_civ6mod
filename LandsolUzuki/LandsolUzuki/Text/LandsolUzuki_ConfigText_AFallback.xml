@@ -5,6 +5,10 @@
 			<Text>Grants an extra leader trait {LOC_TRAIT_LEADER_SMILING_BRAVE_NAME} to Uzuki: {LOC_TRAIT_LEADER_SMILING_BRAVE_DESCRIPTION}</Text>
 		</Row>
 
+		<Row Tag="LOC_TRAIT_NEW_GENERATIONS_BONUS">
+			<Text>[NEWLINE][NEWLINE]Guildhouse bonus: Each Government Plaza building provides +1 [ICON_Science] Science, +1 [ICON_Culture] Culture and +1 [ICON_Production] Production for all Guildhouses in your cities.</Text>
+		</Row>
+
 		<Row Tag="LOC_TRAIT_LEADER_SMILING_BRAVE_NAME">
 			<Text>Smiling Bravery</Text>
 		</Row>
@@ -18,7 +22,7 @@
 		</Replace>
 		
 		<Row Tag="LOC_TRAIT_LEADER_SMILING_BRAVE_DESCRIPTION">
-			<Text>The bonus happiness benefits of Sing, Mile, Smile trait is granted without the need of a Theater Square district. Gain +1 Era Score each time you trigger an [ICON_CivicBoosted] Inspiration. When in a Golden Age: One extra Wildcard policy slot, all land units receive bonus [ICON_Movement] Movement and [ICON_Strength] Combat Strength from Great General.</Text>
+			<Text>The bonus happiness benefits of Sing, Mile, Smile trait is granted without the need of a Theater Square district. Gain +1 Era Score each time you trigger an [ICON_CivicBoosted] Inspiration. When in a Golden Age: One extra Wildcard policy slot, all land units receive +1 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength.{LOC_TRAIT_NEW_GENERATIONS_BONUS}</Text>
 		</Row>
 	</EnglishText>
 </GameData>

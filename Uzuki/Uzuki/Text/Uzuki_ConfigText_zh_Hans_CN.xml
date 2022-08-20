@@ -48,7 +48,7 @@
 		</Row>
 
 		<Row Tag="LOC_UNIT_346_TRAINER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>346特色支援单位，使邻接单位获得+50%战斗经验值。</Text>
+			<Text>346特色中世纪支援单位，替代医疗兵。如单位从训练员旁开始移动，则+1 [ICON_Movement] 移动力。</Text>
 		</Row>
 
 		<Row Tag="LOC_LOADING_INFO_LEADER_UZUKI" Language="zh_Hans_CN">
@@ -72,7 +72,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_SHINY_STARS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>额外获得25%的 [ICON_GreatWriter] 大文学家、 [ICON_GreatArtist] 大美术家、 [ICON_GreatMusician] 大音乐家、 [ICON_GreatScientist] 大科学家、 [ICON_GreatEngineer] 大工程师以及 [ICON_GreatMerchant] 大商业家点数。每获得1位伟人，[ICON_Gold] 金币便+1%（上限为+30%）。每件 [ICON_GreatWork_Writing] 著作巨作、 [ICON_GreatWork_Landscape] 艺术巨作和 [ICON_GreatWork_Music] 音乐巨作+1 [ICON_Culture] 文化、 +4 [ICON_Gold] 金币。修建纪念碑和剧院广场建筑时+100% [ICON_Production] 生产力。</Text>
+			<Text>额外获得25%的 [ICON_GreatWriter] 大文学家、 [ICON_GreatArtist] 大美术家、 [ICON_GreatMusician] 大音乐家、 [ICON_GreatScientist] 大科学家、 [ICON_GreatEngineer] 大工程师以及 [ICON_GreatMerchant] 大商业家点数。每获得1位伟人，[ICON_Gold] 金币便+1%（上限为+30%）。每件 [ICON_GreatWork_Writing] 著作巨作、 [ICON_GreatWork_Landscape] 艺术巨作和 [ICON_GreatWork_Music] 音乐巨作+1 [ICON_Culture] 文化、 +4 [ICON_Gold] 金币。修建剧院广场建筑时+100% [ICON_Production] 生产力。</Text>
 		</Row>
 
 	</LocalizedText>

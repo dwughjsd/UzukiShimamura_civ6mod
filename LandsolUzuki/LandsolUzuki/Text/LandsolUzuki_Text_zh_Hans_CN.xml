@@ -24,6 +24,13 @@
 			<Text>New Generations公会长</Text>
 		</Row>
 
+		<Replace Tag="LOC_ABILITY_SMILING_BRAVE_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>“微笑勇气”能力提供 +5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SMILING_BRAVE_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>“微笑勇气”能力提供 +1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_LANDSOL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_UZUKI_CHAPTER_HISTORY_PARA_1}</Text>
 		</Row>

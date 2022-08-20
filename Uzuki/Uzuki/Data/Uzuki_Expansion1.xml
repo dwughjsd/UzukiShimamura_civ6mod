@@ -95,4 +95,8 @@
 		<Row DistrictType="DISTRICT_STARLIGHT_STAGE" YieldChangeId="Government_Culture"/>
 	</District_Adjacencies>
 
+	<UnitUpgrades>
+		<Row Unit="UNIT_346_TRAINER" UpgradeUnit="UNIT_SUPPLY_CONVOY"/>
+	</UnitUpgrades>
+
 </GameData>

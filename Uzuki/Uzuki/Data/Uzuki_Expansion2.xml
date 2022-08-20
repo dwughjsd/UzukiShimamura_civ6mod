@@ -195,5 +195,9 @@
 			<Value>false</Value>
 		</Row>
 	</RequirementArguments>
+
+	<UnitUpgrades>
+		<Row Unit="UNIT_346_TRAINER" UpgradeUnit="UNIT_SUPPLY_CONVOY"/>
+	</UnitUpgrades>
 	
 </GameData>

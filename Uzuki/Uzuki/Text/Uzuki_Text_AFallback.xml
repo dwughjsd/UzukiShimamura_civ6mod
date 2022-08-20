@@ -18,6 +18,10 @@
 			<Text>346 is able to recruit Great People faster, making them competitive in a number of different victories. However, combined with their unique Starlight Stage district they are best at achieving Culture Victory. When playing as Uzuki, it's recommended to keep an eye on [ICON_Amenities] Amenities of cities as her Leader Ability provides considerable bonus [ICON_Amenities] Amenities and boost yields of happy cities.</Text>
 		</Row>
 
+		<Replace Tag="LOC_ABILITY_GRANT_MOVEMENT_BONUS_DESCRIPTION">
+			<Text>Grants +1 [ICON_Movement] Movement to units starting their move up to 1 hex away.</Text>
+		</Replace>
+
 		<!--
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_346_MUTSUKI_CHAPTER_HISTORY_PARA_1">
 			<Text>Not implemented</Text>
@@ -460,17 +464,5 @@
 			<Text>Not Implemented</Text>
 		</Row>
 		-->
-		<Row Tag="LOC_ABILITY_RECEIVE_346_TRAINER_BONUS_NAME">
-			<Text>Being Trained</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_RECEIVE_346_TRAINER_BONUS_DESCRIPTION">
-			<Text>Gains +50% experience when adjacent to a Trainer.</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_346_TRAINER_NAME">
-			<Text>Professional Training</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_346_TRAINER_DESCRIPTION">
-			<Text>Adjacent units gain +50% experience.</Text>
-		</Row>
 	</EnglishText>
 </GameData>

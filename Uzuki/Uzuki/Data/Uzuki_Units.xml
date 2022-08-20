@@ -3,12 +3,14 @@
 
 	<Types>
 		<Row Type="UNIT_346_TRAINER" Kind="KIND_UNIT" />
-		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Kind="KIND_ABILITY" />
-		<Row Type="ABILITY_346_TRAINER" Kind="KIND_ABILITY" />
+		<InsertOrIgnore Type="ABILITY_GRANT_MOVEMENT_BONUS" Kind="KIND_ABILITY"/>
 		<!--<Row Type="UNIT_346_MUTSUKI" Kind="KIND_UNIT" />
 		<Row Type="ABILITY_MUTSUKI" Kind="KIND_ABILITY"/>-->
 	</Types>
 
+	<Tags>
+		<InsertOrIgnore Tag="CLASS_LOGISTIC_MOVEMENT" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
 
 	<Units>
 		<Row>
@@ -19,14 +21,14 @@
 			<BaseMoves>3</BaseMoves>
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_SUPPORT</FormationClass>
-			<Cost>85</Cost>
+			<Cost>150</Cost>
 			<ZoneOfControl>false</ZoneOfControl>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
 			<TraitType>TRAIT_CIVILIZATION_UNIT_346_TRAINER</TraitType>
 			<Maintenance>3</Maintenance>
 			<PromotionClass>PROMOTION_CLASS_SUPPORT</PromotionClass>
-			<PrereqCivic>CIVIC_MILITARY_TRAINING</PrereqCivic>
+			<PrereqCivic>CIVIC_MERCENARIES</PrereqCivic>
 		</Row>
 		<!--
 		<Row>
@@ -50,11 +52,15 @@
 		</Row>
 		-->
 	</Units>
-	<!--
+
 	<UnitReplaces>
+		<!--
 		<Row CivUniqueUnitType="UNIT_346_MUTSUKI" ReplacesUnitType="UNIT_IRONCLAD"/>
-	</UnitReplaces>
 		-->
+		<Row CivUniqueUnitType="UNIT_346_TRAINER" ReplacesUnitType="UNIT_MEDIC"/>
+
+	</UnitReplaces>
+
 
 	<UnitAIInfos>
 		<!--
@@ -64,19 +70,14 @@
 		<Row UnitType="UNIT_346_MUTSUKI" AiType="UNITTYPE_NAVAL"/>
 		-->
 		<Row UnitType="UNIT_346_TRAINER" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+		
 	</UnitAIInfos>
 
-	<!--
-	<Unit_BuildingPrereqs>
-		<Row Unit="UNIT_346_TRAINER" PrereqBuilding="BUILDING_BARRACKS"/>
-	</Unit_BuildingPrereqs>
-	-->
 	
 	<Tags>
 		<!--
 		<Row Tag="CLASS_MUTSUKI" Vocabulary="ABILITY_CLASS"/>
 		-->
-		<Row Tag="CLASS_346_TRAINER" Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 
 	<TypeTags>
@@ -87,22 +88,9 @@
 		<Row Type="UNIT_346_MUTSUKI" Tag="CLASS_ANTI_AIR"/>
 		<Row Type="ABILITY_MUTSUKI" Tag="CLASS_MUTSUKI"/>
 		-->
-		<Row Type="UNIT_346_TRAINER" Tag="CLASS_346_TRAINER"/>
-		<Row Type="ABILITY_346_TRAINER" Tag="CLASS_346_TRAINER"/>
-		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_RECON"/>
-		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_MELEE"/>
-		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_RANGED"/>
-		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_SIEGE"/>
-		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_LIGHT_CAVALRY"/>
-		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_HEAVY_CAVALRY"/>
-		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_RANGED_CAVALRY"/>
-		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_ANTI_CAVALRY"/>
-		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_HEAVY_CHARIOT"/>
-		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_LIGHT_CHARIOT"/>
-		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_NAVAL_MELEE"/>
-		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_NAVAL_RANGED"/>
-		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_NAVAL_RAIDER"/>
-		<Row Type="ABILITY_RECEIVE_346_TRAINER_BONUS" Tag="CLASS_AIRCRAFT"/>
+		<InsertOrIgnore Type="ABILITY_GRANT_MOVEMENT_BONUS" Tag="CLASS_LOGISTIC_MOVEMENT"/>
+		<Row Type="UNIT_346_TRAINER" Tag="CLASS_LOGISTIC_MOVEMENT"/>
+		<Row Type="UNIT_346_TRAINER" Tag="CLASS_SUPPORT"/>
 	</TypeTags>
 	
 	
@@ -111,8 +99,7 @@
 		<!--
 		<Row UnitAbilityType="ABILITY_MUTSUKI" Name="LOC_ABILITY_MUTSUKI_NAME" Description="LOC_ABILITY_MUTSUKI_DESCRIPTION"/>
 		-->
-		<Row UnitAbilityType="ABILITY_346_TRAINER" Name="LOC_ABILITY_346_TRAINER_NAME" Description="LOC_ABILITY_346_TRAINER_DESCRIPTION"/>
-		<Row UnitAbilityType="ABILITY_RECEIVE_346_TRAINER_BONUS" Name="LOC_ABILITY_RECEIVE_346_TRAINER_BONUS_NAME" Description="LOC_ABILITY_RECEIVE_346_TRAINER_BONUS_DESCRIPTION" Inactive="true"/>
+		<InsertOrIgnore UnitAbilityType="ABILITY_GRANT_MOVEMENT_BONUS" Name="LOC_ABILITY_GRANT_MOVEMENT_BONUS_NAME" Description="LOC_ABILITY_GRANT_MOVEMENT_BONUS_DESCRIPTION"/>
 	</UnitAbilities>
 
 	<UnitAbilityModifiers>
@@ -122,14 +109,10 @@
 			<ModifierId>MUTSUKI_ANTI_NAVAL_RAIDER_COMBAT_BONUS</ModifierId>
 		</Row>
 		-->
-		<Row>
-			<UnitAbilityType>ABILITY_346_TRAINER</UnitAbilityType>
-			<ModifierId>346_TRAINER_EXPERIENCE_BONUS</ModifierId>
-		</Row>
-		<Row>
-			<UnitAbilityType>ABILITY_RECEIVE_346_TRAINER_BONUS</UnitAbilityType>
-			<ModifierId>RECEIVE_346_TRAINER_EXPERIENCE_BONUS</ModifierId>
-		</Row>
+		<InsertOrIgnore>
+			<UnitAbilityType>ABILITY_GRANT_MOVEMENT_BONUS</UnitAbilityType>
+			<ModifierId>SUPPLY_CONVOY_BONUS_MOVEMENT</ModifierId>
+		</InsertOrIgnore>
 	</UnitAbilityModifiers>
 
 	<Modifiers>
@@ -140,16 +123,12 @@
 			<SubjectRequirementSetId>ANTI_NAVAL_RAIDER_OPPONENT_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		-->
-		<Row>
-			<ModifierId>346_TRAINER_EXPERIENCE_BONUS</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
-			<SubjectRequirementSetId>ADJACENT_346_TRAINER_UNIT_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>RECEIVE_346_TRAINER_EXPERIENCE_BONUS</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>ADJACENT_346_TRAINER_UNIT_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
+		<InsertOrIgnore>
+			<ModifierId>SUPPLY_CONVOY_BONUS_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+			<SubjectRequirementSetId>SUPPLY_CONVOY_MOVEMENT_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectStackLimit>1</SubjectStackLimit>
+		</InsertOrIgnore>
 	</Modifiers>
 
 	<ModifierArguments>
@@ -160,21 +139,14 @@
 			<Value>7</Value>
 		</Row>
 		-->
-		<Row>
-			<ModifierId>346_TRAINER_EXPERIENCE_BONUS</ModifierId>
-			<Name>AbilityType</Name>
-			<Value>ABILITY_RECEIVE_346_TRAINER_BONUS</Value>
-		</Row>
-		<Row>
-			<ModifierId>RECEIVE_346_TRAINER_EXPERIENCE_BONUS</ModifierId>
+		<InsertOrIgnore>
+			<ModifierId>SUPPLY_CONVOY_BONUS_MOVEMENT</ModifierId>
 			<Name>Amount</Name>
-			<Value>50</Value>
-		</Row>
+			<Value>1</Value>
+		</InsertOrIgnore>
 	</ModifierArguments>
 
-
 	<ModifierStrings>
-		<Row ModifierId="RECEIVE_346_TRAINER_EXPERIENCE_BONUS" Context="Preview" Text="LOC_ABILITY_RECEIVE_346_TRAINER_BONUS_DESCRIPTION"/>
 		<!--
 		<Row ModifierId="MUTSUKI_ANTI_NAVAL_RAIDER_COMBAT_BONUS" Context="Preview" Text="LOC_ABILITY_MUTSUKI_MODIFIER_DESCRIPTION"/>
 		-->
@@ -188,10 +160,10 @@
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 		-->
-		<Row>
-			<RequirementSetId>ADJACENT_346_TRAINER_UNIT_REQUIREMENTS</RequirementSetId>
+		<InsertOrIgnore>
+			<RequirementSetId>SUPPLY_CONVOY_MOVEMENT_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
+		</InsertOrIgnore>
 	</RequirementSets>
 	
 	<RequirementSetRequirements>
@@ -201,11 +173,15 @@
 			<RequirementId>ANTI_NAVAL_RAIDER_OPPONENT_REQUIREMENT</RequirementId>
 		</Row>
 		-->
-		<Row>
-			<RequirementSetId>ADJACENT_346_TRAINER_UNIT_REQUIREMENTS</RequirementSetId>
-			<RequirementId>ADJACENT_FRIENDLY_346_TRAINER_REQUIREMENT</RequirementId>
-		</Row>
-	</RequirementSetRequirements>
+		<InsertOrIgnore>
+			<RequirementSetId>SUPPLY_CONVOY_MOVEMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ADJACENT_UNIT_REQUIREMENT</RequirementId>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementSetId>SUPPLY_CONVOY_MOVEMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_IS_DOMAIN_LAND</RequirementId>
+		</InsertOrIgnore>
+</RequirementSetRequirements>
 	
 	<Requirements>
 		<!--
@@ -214,10 +190,6 @@
 			<RequirementType>REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES</RequirementType>
 		</Row>
 		-->
-		<Row>
-			<RequirementId>ADJACENT_FRIENDLY_346_TRAINER_REQUIREMENT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
-		</Row>	
 	</Requirements>
 	
 	<RequirementArguments>
@@ -228,11 +200,6 @@
 			<Value>CLASS_NAVAL_RAIDER</Value>
 		</Row>
 		-->
-		<Row>
-			<RequirementId>ADJACENT_FRIENDLY_346_TRAINER_REQUIREMENT</RequirementId>
-			<Name>Tag</Name>
-			<Value>CLASS_346_TRAINER</Value>
-		</Row>
 	</RequirementArguments>
 	
 	<UnitUpgrades>
@@ -240,5 +207,5 @@
 		<Row Unit="UNIT_346_MUTSUKI" UpgradeUnit="UNIT_DESTROYER"/>
 		-->
 	</UnitUpgrades>
-	
+
 </GameData>

@@ -45,7 +45,7 @@
 		</Row>
 
 		<Row Tag="LOC_UNIT_346_TRAINER_DESCRIPTION">
-			<Text>346 unique support unit. Adjacent units gain +50% experience.</Text>
+			<Text>346 unique Medieval Era support unit. Gives units 1 bonus [ICON_Movement] Movement if move is started adjacent to the Trainer.</Text>
 		</Row>
 
 		<Row Tag="LOC_LOADING_INFO_LEADER_UZUKI">
@@ -69,7 +69,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_SHINY_STARS_DESCRIPTION">
-			<Text>Receive 25% more [ICON_GreatWriter] Great Writer, [ICON_GreatArtist] Great Artist, [ICON_GreatMusician] Great Musician, [ICON_GreatScientist] Great Scientist, [ICON_GreatEngineer] Great Engineer and [ICON_GreatMerchant] Great Merchant points. Gains +1% [ICON_Gold] Gold for each Great Person it has ever earned, up to a total of +30%. +1 [ICON_Culture] Culture and +4 [ICON_Gold] Gold from each [ICON_GreatWork_Writing] Great Work of Writing, [ICON_GreatWork_Landscape] Great Work of Art and [ICON_GreatWork_Music] Great Work of Music. +100% [ICON_Production] Production toward Monument and Theater Square buildings.</Text>
+			<Text>Receive 25% more [ICON_GreatWriter] Great Writer, [ICON_GreatArtist] Great Artist, [ICON_GreatMusician] Great Musician, [ICON_GreatScientist] Great Scientist, [ICON_GreatEngineer] Great Engineer and [ICON_GreatMerchant] Great Merchant points. Gains +1% [ICON_Gold] Gold for each Great Person it has ever earned, up to a total of +30%. +1 [ICON_Culture] Culture and +4 [ICON_Gold] Gold from each [ICON_GreatWork_Writing] Great Work of Writing, [ICON_GreatWork_Landscape] Great Work of Art and [ICON_GreatWork_Music] Great Work of Music. +100% [ICON_Production] Production toward Theater Square buildings.</Text>
 		</Row>
 
 	</EnglishText>
