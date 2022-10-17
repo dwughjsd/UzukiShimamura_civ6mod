@@ -383,7 +383,7 @@
 			<Text>要不要休战好好休息一下呢？</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_UZUKI_ANY" Language="zh_Hans_CN">
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_UZUKI_ANY" Language="zh_Hans_CN">
 			<Text>允许你们通过这片让我们自豪的土地。</Text>
 		</Row>
 

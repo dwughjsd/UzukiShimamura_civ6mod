@@ -384,7 +384,7 @@
 			<Text>Would you like to stop the war and take a good rest?</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_UZUKI_ANY">
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_UZUKI_ANY">
 			<Text>You are allowed to pass through the lands we are proud of.</Text>
 		</Row>
 
