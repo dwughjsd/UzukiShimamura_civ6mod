@@ -199,5 +199,9 @@
 	<UnitUpgrades>
 		<Row Unit="UNIT_346_TRAINER" UpgradeUnit="UNIT_SUPPLY_CONVOY"/>
 	</UnitUpgrades>
+
+	<AiLists>
+		<Row ListType="FunLovingResolutions" AgendaType="TRAIT_AGENDA_CHRISH_SMILE" System="Resolutions"/>
+	</AiLists>
 	
 </GameData>
