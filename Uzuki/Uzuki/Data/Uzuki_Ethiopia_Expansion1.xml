@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HondaMio_Ethiopia_Expansion1 -->
+<!-- Author: Admin -->
+<!-- DateCreated: 8/18/2020 8:53:14 PM -->
+<GameData>
+	<TraitModifiers>
+		<Delete TraitType="MINOR_CIV_CULTURAL_TRAIT" ModifierId="MINOR_CIV_CULTURAL_LARGE_INFLUENCE_BONUS_ARTIFACT"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Delete ModifierId="MINOR_CIV_CULTURAL_LARGE_INFLUENCE_BONUS_ARTIFACT"/>
+	</Modifiers>
+</GameData>

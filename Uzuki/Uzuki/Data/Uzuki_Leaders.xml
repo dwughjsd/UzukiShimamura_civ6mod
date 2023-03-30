@@ -438,5 +438,1059 @@
 		<Row ModifierId="TRAIT_UZUKI_GOLD_ECSTATIC" Name="YieldType" Value="YIELD_GOLD" />
 		<Row ModifierId="TRAIT_UZUKI_GOLD_ECSTATIC" Name="Amount" Value="10" />
 	</ModifierArguments>
+	
+	<!--Rin-->
+
+	<Types>
+		<Row Type="LEADER_SHIBUYA_RIN" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_AZURE_SWORD" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_ETOILE_PRISM" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_RECEIVE_AZURE_SWORD_BONUS" Kind="KIND_ABILITY"/>
+		<InsertOrIgnore Type="MODIFIER_PLAYER_CITIES_IMPROVEMENT_ADJACENCY" Kind="KIND_MODIFIER"/>
+	</Types>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_MISHIRO" LeaderType="LEADER_SHIBUYA_RIN" CapitalName="LOC_CITY_NAME_TOKYO" />
+	</CivilizationLeaders>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_SHIBUYA_RIN</LeaderType>
+			<Name>LOC_LEADER_SHIBUYA_RIN_NAME</Name>
+			<SceneLayers>4</SceneLayers>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_SHIBUYA_RIN" TraitType="TRAIT_LEADER_AZURE_SWORD"/>
+	</LeaderTraits>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_SHIBUYA_RIN" Quote="LOC_LEADER_SHIBUYA_RIN_QUOTE"/>
+	</LeaderQuotes>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_AZURE_SWORD" Name="LOC_TRAIT_LEADER_AZURE_SWORD_NAME" Description="LOC_TRAIT_LEADER_AZURE_SWORD_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_ETOILE_PRISM" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+	</Traits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_AZURE_SWORD" ModifierId="TRAIT_LAND_MELEE_MOVEMENT_RIN"/>
+		<Row TraitType="TRAIT_LEADER_AZURE_SWORD" ModifierId="TRAIT_RIN_MINES_THEATERADJACENCY"/>
+		<Row TraitType="TRAIT_LEADER_AZURE_SWORD" ModifierId="TRAIT_RIN_QUARRIES_THEATERADJACENCY"/>
+		<Row TraitType="TRAIT_LEADER_AZURE_SWORD" ModifierId="TRAIT_IRON_MINE_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_AZURE_SWORD" ModifierId="TRAIT_IRON_MINE_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_AZURE_SWORD" ModifierId="TRAIT_MARBLE_QUARRY_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_AZURE_SWORD" ModifierId="TRAIT_MARBLE_QUARRY_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_AZURE_SWORD" ModifierId="TRAIT_STONE_QUARRY_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_AZURE_SWORD" ModifierId="TRAIT_STONE_QUARRY_PRODUCTION"/>
+		<Row TraitType="TRAIT_AGENDA_ETOILE_PRISM" ModifierId="AGENDA_ETOILE_PRISM_HIGH_SCIENCE_HIGH_PRODUCTION"/>
+		<Row TraitType="TRAIT_AGENDA_ETOILE_PRISM" ModifierId="AGENDA_ETOILE_PRISM_LOW_SCIENCE_LOW_PRODUCTION"/>
+	</TraitModifiers>
+
+	<!--It won't be hard to switch from a modifier to a ability.-->
+	<TypeTags>
+		<Row Type="ABILITY_RECEIVE_AZURE_SWORD_BONUS" Tag="CLASS_MELEE"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_RECEIVE_AZURE_SWORD_BONUS" Name="LOC_ABILITY_RECEIVE_AZURE_SWORD_BONUS_NAME" Description="LOC_ABILITY_RECEIVE_AZURE_SWORD_BONUS_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_RECEIVE_AZURE_SWORD_BONUS</UnitAbilityType>
+			<ModifierId>MOVEMENT_BONUS_RIN_LAND_MELEE_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_RECEIVE_AZURE_SWORD_BONUS</UnitAbilityType>
+			<ModifierId>ESCORT_MOBILITY_SHARED_MOVEMENT</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_RIN_MINES_THEATERADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_IMPROVEMENT_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RIN_QUARRIES_THEATERADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_IMPROVEMENT_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LAND_MELEE_MOVEMENT_RIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MOVEMENT_BONUS_RIN_LAND_MELEE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_IRON_MINE_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_IRON_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_IRON_MINE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_IRON_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MARBLE_QUARRY_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_MARBLE_QUARRY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MARBLE_QUARRY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_MARBLE_QUARRY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STONE_QUARRY_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_STONE_QUARRY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STONE_QUARRY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_STONE_QUARRY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ETOILE_PRISM_HIGH_SCIENCE_HIGH_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_SCIENCE_HIGH_PRODUCTION</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ETOILE_PRISM_LOW_SCIENCE_LOW_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_SCIENCE_LOW_PRODUCTION</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_RIN_MINES_THEATERADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RIN_MINES_THEATERADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RIN_MINES_THEATERADJACENCY</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RIN_MINES_THEATERADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RIN_MINES_THEATERADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RIN_MINES_THEATERADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_MINE_1_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RIN_QUARRIES_THEATERADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RIN_QUARRIES_THEATERADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RIN_QUARRIES_THEATERADJACENCY</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_QUARRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RIN_QUARRIES_THEATERADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RIN_QUARRIES_THEATERADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RIN_QUARRIES_THEATERADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_QUARRY_1_CULTURE_RIN</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_LAND_MELEE_MOVEMENT_RIN</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_RECEIVE_AZURE_SWORD_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOVEMENT_BONUS_RIN_LAND_MELEE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_IRON_MINE_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_IRON_MINE_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_IRON_MINE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_IRON_MINE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MARBLE_QUARRY_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MARBLE_QUARRY_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MARBLE_QUARRY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MARBLE_QUARRY_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STONE_QUARRY_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STONE_QUARRY_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STONE_QUARRY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STONE_QUARRY_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ETOILE_PRISM_HIGH_SCIENCE_HIGH_PRODUCTION</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ETOILE_PRISM_HIGH_SCIENCE_HIGH_PRODUCTION</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_SHIBUYA_RIN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ETOILE_PRISM_HIGH_SCIENCE_HIGH_PRODUCTION</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_ETOILE_PRISM_HIGH_SCIENCE_HIGH_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ETOILE_PRISM_LOW_SCIENCE_LOW_PRODUCTION</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ETOILE_PRISM_LOW_SCIENCE_LOW_PRODUCTION</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_SHIBUYA_RIN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ETOILE_PRISM_LOW_SCIENCE_LOW_PRODUCTION</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_ETOILE_PRISM_LOW_SCIENCE_LOW_PRODUCTION</Value>
+		</Row>
+
+	</ModifierArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_ETOILE_PRISM_HIGH_SCIENCE_HIGH_PRODUCTION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_ETOILE_PRISM_LOW_SCIENCE_LOW_PRODUCTION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+
+	<AiListTypes>
+		<Row ListType="ShibuyaRinTechs"/>
+		<Row ListType="ShibuyaRinCivics"/>
+		<Row ListType="ShibuyaRinWonders"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="ShibuyaRinTechs" LeaderType="TRAIT_LEADER_AZURE_SWORD" System="Technologies"/>
+		<Row ListType="ShibuyaRinWonders" LeaderType="TRAIT_LEADER_AZURE_SWORD" System="Buildings"/>
+		<Row ListType="ShibuyaRinCivics" LeaderType="TRAIT_LEADER_AZURE_SWORD" System="Civics"/>
+		<Row ListType="IndustryLoverIndustryPreference" AgendaType="TRAIT_AGENDA_ETOILE_PRISM" System="Yields"/>
+		<Row ListType="ScienceLoverSciencePreference" AgendaType="TRAIT_AGENDA_ETOILE_PRISM" System="Yields"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="ShibuyaRinTechs" Item="TECH_ANIMAL_HUSBANDRY"/>
+		<Row ListType="ShibuyaRinTechs" Item="TECH_MINING"/>
+		<Row ListType="ShibuyaRinTechs" Item="TECH_ASTROLOGY"/>
+		<Row ListType="ShibuyaRinTechs" Item="TECH_IRON_WORKING"/>
+		<Row ListType="ShibuyaRinTechs" Item="TECH_STIRRUPS"/>
+		<Row ListType="ShibuyaRinTechs" Item="TECH_SCIENTIFIC_THEORY"/>
+		<Row ListType="ShibuyaRinWonders" Item="BUILDING_RUHR_VALLEY"/>
+		<Row ListType="ShibuyaRinCivics" Item="CIVIC_MILITARY_TRADITION"/>
+		<Row ListType="ShibuyaRinCivics" Item="CIVIC_MYSTICISM"/>
+		<Row ListType="ShibuyaRinCivics" Item="CIVIC_GUILDS"/>
+	</AiFavoredItems>
+	<Agendas>
+		<Row AgendaType="AGENDA_ETOILE_PRISM" Name="LOC_AGENDA_ETOILE_PRISM_NAME" Description="LOC_AGENDA_ETOILE_PRISM_DESCRIPTION"/>
+	</Agendas>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_SHIBUYA_RIN" AgendaType="AGENDA_ETOILE_PRISM"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_ETOILE_PRISM" TraitType="TRAIT_AGENDA_ETOILE_PRISM"/>
+	</AgendaTraits>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_ETOILE_PRISM" AgendaTwo="AGENDA_INDUSTRIALIST"/>
+		<Row AgendaOne="AGENDA_ETOILE_PRISM" AgendaTwo="AGENDA_TECHNOPHILE"/>
+	</ExclusiveAgendas>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_MELEE_UNIT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_PLAYER_IS_ATTACKER</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_IRON_MINE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_MARBLE_QUARRY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_STONE_QUARRY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_SCIENCE_HIGH_PRODUCTION</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_LOW_SCIENCE_LOW_PRODUCTION</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_SCIENCE_HIGH_PRODUCTION</RequirementSetId>
+			<RequirementId>REQUIRES_MAJOR_CIV_OPPONENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_SCIENCE_HIGH_PRODUCTION</RequirementSetId>
+			<RequirementId>REQUIRES_MET_30_TURNS_AGO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_SCIENCE_HIGH_PRODUCTION</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_HIGH_INDUSTRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_SCIENCE_HIGH_PRODUCTION</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_HIGH_SCIENCE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_LOW_SCIENCE_LOW_PRODUCTION</RequirementSetId>
+			<RequirementId>REQUIRES_MAJOR_CIV_OPPONENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_LOW_SCIENCE_LOW_PRODUCTION</RequirementSetId>
+			<RequirementId>REQUIRES_MET_30_TURNS_AGO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_LOW_SCIENCE_LOW_PRODUCTION</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_LOW_INDUSTRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_LOW_SCIENCE_LOW_PRODUCTION</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_LOW_SCIENCE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_PLAYER_IS_ATTACKER</RequirementSetId>
+			<RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_MELEE_UNIT</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_TAG_IS_MELEE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_IRON_MINE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_IRON</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_IRON_MINE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_IRON_MINE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_VISIBLE_RESOURCE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_MARBLE_QUARRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_MARBLE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_MARBLE_QUARRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_QUARRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_STONE_QUARRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_STONE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_STONE_QUARRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_QUARRY</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_TAG_IS_MELEE</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_IRON</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_MARBLE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_STONE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_TAG_IS_MELEE</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_IRON</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_IRON</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_MARBLE</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_MARBLE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_STONE</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_STONE</Value>
+		</Row>
+	</RequirementArguments>
+	<DynamicModifiers>
+		<InsertOrIgnore>
+			<ModifierType>MODIFIER_PLAYER_CITIES_IMPROVEMENT_ADJACENCY</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_IMPROVEMENT_ADJACENCY</EffectType>
+		</InsertOrIgnore>
+	</DynamicModifiers>
+
+	<!--Mio-->
+	<Types>
+		<Row Type="LEADER_HONDA_MIO" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_TRIPLE_STARS" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_BURNING_FRIENDSHIP" Kind="KIND_TRAIT"/>
+	</Types>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_MISHIRO" LeaderType="LEADER_HONDA_MIO" CapitalName="LOC_CITY_NAME_CHIBA" />
+	</CivilizationLeaders>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_HONDA_MIO" TraitType="TRAIT_LEADER_TRIPLE_STARS"/>
+	</LeaderTraits>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_HONDA_MIO</LeaderType>
+			<Name>LOC_LEADER_HONDA_MIO_NAME</Name>
+			<SceneLayers>4</SceneLayers>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_BURNING_FRIENDSHIP" Description="LOC_PLACEHOLDER" Name="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_LEADER_TRIPLE_STARS" Name="LOC_TRAIT_LEADER_HONDA_MIO_NAME" Description="LOC_TRAIT_LEADER_HONDA_MIO_DESCRIPTION"/>
+	</Traits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_BURNING_FRIENDSHIP" ModifierId="AGENDA_BURNING_FRIENDSHIP_DECLEAR_FRIEND_STRONG_ARMY"/>
+		<Row TraitType="TRAIT_AGENDA_BURNING_FRIENDSHIP" ModifierId="AGENDA_BURNING_FRIENDSHIP_WEAK_ARMY"/>
+		<Row TraitType="MINOR_CIV_SCIENTIFIC_TRAIT" ModifierId="MINOR_CIV_SCIENTIFIC_SMALL_INFLUENCE_BONUS_TRIPLE_STARS"/>
+		<Row TraitType="MINOR_CIV_RELIGIOUS_TRAIT" ModifierId="MINOR_CIV_RELIGIOUS_SMALL_INFLUENCE_BONUS_TRIPLE_STARS"/>
+		<Row TraitType="MINOR_CIV_TRADE_TRAIT" ModifierId="MINOR_CIV_TRADE_SMALL_INFLUENCE_BONUS_TRIPLE_STARS"/>
+		<Row TraitType="MINOR_CIV_MILITARISTIC_TRAIT" ModifierId="MINOR_CIV_MILITARISTIC_SMALL_INFLUENCE_BONUS_TRIPLE_STARS"/>
+		<Row TraitType="MINOR_CIV_INDUSTRIAL_TRAIT" ModifierId="MINOR_CIV_INDUSTRIAL_SMALL_INFLUENCE_BONUS_TRIPLE_STARS_BUILDING"/>
+		<Row TraitType="MINOR_CIV_INDUSTRIAL_TRAIT" ModifierId="MINOR_CIV_INDUSTRIAL_SMALL_INFLUENCE_BONUS_TRIPLE_STARS_DISTRICT"/>
+		<Row TraitType="MINOR_CIV_CULTURAL_TRAIT" ModifierId="MINOR_CIV_CULTURAL_SMALL_INFLUENCE_BONUS_TRIPLE_STARS"/>
+		<!--<Row TraitType="TRAIT_LEADER_TRIPLE_STARS" ModifierId="TRAIT_TRIPLE_INITIAL_INFLUENCETOKEN"/>-->
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>AGENDA_BURNING_FRIENDSHIP_DECLEAR_FRIEND_STRONG_ARMY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_DECLEARED_FRIEND_HIGH_STANDING_ARMY</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>AGENDA_BURNING_FRIENDSHIP_WEAK_ARMY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_STANDING_ARMY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_SMALL_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_SMALL_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_SMALL_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_SMALL_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_SMALL_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_SMALL_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_SMALL_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_SMALL_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+
+
+		<Row>
+			<ModifierId>MINOR_CIV_MILITARISTIC_SMALL_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_SMALL_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_SMALL_INFLUENCE_BONUS_TRIPLE_STARS_BUILDING</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_SMALL_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_SMALL_INFLUENCE_BONUS_TRIPLE_STARS_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_SMALL_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_YIELD_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_YIELD_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_YIELD_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_UNIT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_TRIPLE_INITIAL_INFLUENCETOKEN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_DUPLICATE_FIRST_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+
+	</Modifiers>
+
+	<ModifierArguments>
+
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_YIELD_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_YIELD_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_YIELD_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_YIELD_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_YIELD_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_YIELD_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_CAPITAL_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_SMALL_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_SCIENTIFIC_YIELD_FOR_CAPITAL_TRIPLE_STARS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_SMALL_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_RELIGIOUS_YIELD_FOR_CAPITAL_TRIPLE_STARS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_SMALL_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_TRADE_YIELD_FOR_CAPITAL_TRIPLE_STARS</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_SMALL_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_CULTURAL_YIELD_FOR_CAPITAL_TRIPLE_STARS</Value>
+		</Row>
+
+
+		<Row>
+			<ModifierId>MINOR_CIV_MILITARISTIC_SMALL_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_CAPITAL_TRIPLE_STARS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_SMALL_INFLUENCE_BONUS_TRIPLE_STARS_BUILDING</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_CAPITAL_TRIPLE_STARS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_SMALL_INFLUENCE_BONUS_TRIPLE_STARS_DISTRICT</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_CAPITAL_TRIPLE_STARS</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_TRIPLE_INITIAL_INFLUENCETOKEN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BURNING_FRIENDSHIP_DECLEAR_FRIEND_STRONG_ARMY</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BURNING_FRIENDSHIP_DECLEAR_FRIEND_STRONG_ARMY</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_HONDA_MIO_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BURNING_FRIENDSHIP_DECLEAR_FRIEND_STRONG_ARMY</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_BURNING_FRIENDSHIP_DECLEAR_FRIEND_STRONG_ARMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BURNING_FRIENDSHIP_WEAK_ARMY</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-4</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BURNING_FRIENDSHIP_WEAK_ARMY</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_HONDA_MIO_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BURNING_FRIENDSHIP_WEAK_ARMY</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_BURNING_FRIENDSHIP_WEAK_ARMY</Value>
+		</Row>
+	</ModifierArguments>
+
+
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_BURNING_FRIENDSHIP_DECLEAR_FRIEND_STRONG_ARMY" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_BURNING_FRIENDSHIP_WEAK_ARMY" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_HONDA_MIO" Quote="LOC_LEADER_HONDA_MIO_QUOTE"/>
+	</LeaderQuotes>
+
+	<AiListTypes>
+		<Row ListType="HondaMioCivics"/>
+		<Row ListType="HondaMioTechs"/>
+		<Row ListType="HondaMioWonders"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="HondaMioWonders" LeaderType="TRAIT_LEADER_TRIPLE_STARS" System="Buildings"/>
+		<Row ListType="HondaMioCivics" LeaderType="TRAIT_LEADER_TRIPLE_STARS" System="Civics"/>
+		<Row ListType="HondaMioTechs" LeaderType="TRAIT_LEADER_TRIPLE_STARS" System="Technologies"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="HondaMioWonders" Item="BUILDING_BOLSHOI_THEATRE"/>
+		<Row ListType="HondaMioCivics" Item="CIVIC_DIPLOMATIC_SERVICE"/>
+		<Row ListType="HondaMioTechs" Item="TECH_WRITING"/>
+	</AiFavoredItems>
+
+	<Agendas>
+		<Row AgendaType="AGENDA_BURNING_FRIENDSHIP" Name="LOC_AGENDA_BURNING_FRIENDSHIP_NAME" Description="LOC_AGENDA_BURNING_FRIENDSHIP_DESCRIPTION"/>
+	</Agendas>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_HONDA_MIO" AgendaType="AGENDA_BURNING_FRIENDSHIP"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_BURNING_FRIENDSHIP" TraitType="TRAIT_AGENDA_BURNING_FRIENDSHIP"/>
+	</AgendaTraits>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_BURNING_FRIENDSHIP" AgendaTwo="AGENDA_STANDING_ARMY"/>
+	</ExclusiveAgendas>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_DECLEARED_FRIEND_HIGH_STANDING_ARMY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_SMALL_INFLUENCE_AND_TRIPLE_STARS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MEDIUM_INFLUENCE_AND_TRIPLE_STARS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_LARGE_INFLUENCE_AND_TRIPLE_STARS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_DECLEARED_FRIEND_HIGH_STANDING_ARMY</RequirementSetId>
+			<RequirementId>REQUIRES_MAJOR_CIV_OPPONENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_DECLEARED_FRIEND_HIGH_STANDING_ARMY</RequirementSetId>
+			<RequirementId>REQUIRES_MET_30_TURNS_AGO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_DECLEARED_FRIEND_HIGH_STANDING_ARMY</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_DECLARED_FRIEND</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_DECLEARED_FRIEND_HIGH_STANDING_ARMY</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_HIGH_STANDING_ARMY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_SMALL_INFLUENCE_AND_TRIPLE_STARS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_SMALL_INFLUENCE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_SMALL_INFLUENCE_AND_TRIPLE_STARS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_AT_PEACE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_SMALL_INFLUENCE_AND_TRIPLE_STARS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_TRIPLE_STARS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MEDIUM_INFLUENCE_AND_TRIPLE_STARS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_MEDIUM_INFLUENCE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MEDIUM_INFLUENCE_AND_TRIPLE_STARS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_AT_PEACE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MEDIUM_INFLUENCE_AND_TRIPLE_STARS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_TRIPLE_STARS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_LARGE_INFLUENCE_AND_TRIPLE_STARS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_LARGE_INFLUENCE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_LARGE_INFLUENCE_AND_TRIPLE_STARS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_AT_PEACE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_LARGE_INFLUENCE_AND_TRIPLE_STARS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_TRIPLE_STARS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_TRIPLE_STARS</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_TRIPLE_STARS</RequirementId>
+			<Name>LeaderType</Name>
+			<Value>LEADER_HONDA_MIO</Value>
+		</Row>
+	</RequirementArguments>
+
+
+	<!--Now it's time to fix it for vanilla-->
+	<TraitModifiers>
+		<Row TraitType="MINOR_CIV_SCIENTIFIC_TRAIT" ModifierId="MINOR_CIV_SCIENTIFIC_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS"/>
+		<Row TraitType="MINOR_CIV_SCIENTIFIC_TRAIT" ModifierId="MINOR_CIV_SCIENTIFIC_LARGE_INFLUENCE_BONUS_TRIPLE_STARS"/>
+		<Row TraitType="MINOR_CIV_RELIGIOUS_TRAIT" ModifierId="MINOR_CIV_RELIGIOUS_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS"/>
+		<Row TraitType="MINOR_CIV_RELIGIOUS_TRAIT" ModifierId="MINOR_CIV_RELIGIOUS_LARGE_INFLUENCE_BONUS_TRIPLE_STARS"/>
+		<Row TraitType="MINOR_CIV_TRADE_TRAIT" ModifierId="MINOR_CIV_TRADE_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS"/>
+		<Row TraitType="MINOR_CIV_TRADE_TRAIT" ModifierId="MINOR_CIV_TRADE_LARGE_INFLUENCE_BONUS_TRIPLE_STARS"/>
+		<Row TraitType="MINOR_CIV_CULTURAL_TRAIT" ModifierId="MINOR_CIV_CULTURAL_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS"/>
+		<Row TraitType="MINOR_CIV_CULTURAL_TRAIT" ModifierId="MINOR_CIV_CULTURAL_LARGE_INFLUENCE_BONUS_TRIPLE_STARS"/>
+		<Row TraitType="MINOR_CIV_MILITARISTIC_TRAIT" ModifierId="MINOR_CIV_MILITARISTIC_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS"/>
+		<Row TraitType="MINOR_CIV_MILITARISTIC_TRAIT" ModifierId="MINOR_CIV_MILITARISTIC_LARGE_INFLUENCE_BONUS_TRIPLE_STARS"/>
+		<Row TraitType="MINOR_CIV_INDUSTRIAL_TRAIT" ModifierId="MINOR_CIV_INDUSTRIAL_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS_BUILDING"/>
+		<Row TraitType="MINOR_CIV_INDUSTRIAL_TRAIT" ModifierId="MINOR_CIV_INDUSTRIAL_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS_DISTRICT"/>
+		<Row TraitType="MINOR_CIV_INDUSTRIAL_TRAIT" ModifierId="MINOR_CIV_INDUSTRIAL_LARGE_INFLUENCE_BONUS_TRIPLE_STARS_BUILDING"/>
+		<Row TraitType="MINOR_CIV_INDUSTRIAL_TRAIT" ModifierId="MINOR_CIV_INDUSTRIAL_LARGE_INFLUENCE_BONUS_TRIPLE_STARS_DISTRICT"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_MEDIUM_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_LARGE_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LARGE_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_MEDIUM_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_LARGE_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LARGE_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_MEDIUM_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_LARGE_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LARGE_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_MEDIUM_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_LARGE_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LARGE_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+
+
+		<Row>
+			<ModifierId>MINOR_CIV_MILITARISTIC_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_MEDIUM_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MILITARISTIC_LARGE_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LARGE_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS_BUILDING</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_MEDIUM_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_MEDIUM_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_LARGE_INFLUENCE_BONUS_TRIPLE_STARS_BUILDING</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LARGE_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_LARGE_INFLUENCE_BONUS_TRIPLE_STARS_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LARGE_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_SCIENTIFIC_YIELD_FOR_CAMPUS_PAPAL_PRIMACY</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_LARGE_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_SCIENTIFIC_YIELD_FOR_CAMPUS_PAPAL_PRIMACY</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_RELIGIOUS_YIELD_FOR_HOLY_SITE_PAPAL_PRIMACY</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_LARGE_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_RELIGIOUS_YIELD_FOR_HOLY_SITE_PAPAL_PRIMACY</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_TRADE_YIELD_FOR_COMMERCIAL_HUB_PAPAL_PRIMACY</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_LARGE_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_TRADE_YIELD_FOR_COMMERCIAL_HUB_PAPAL_PRIMACY</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_CULTURAL_YIELD_FOR_THEATER_DISTRICT_PAPAL_PRIMACY</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_LARGE_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_CULTURAL_YIELD_FOR_THEATER_DISTRICT_PAPAL_PRIMACY</Value>
+		</Row>
+
+
+		<Row>
+			<ModifierId>MINOR_CIV_MILITARISTIC_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_ENCAMPMENT_PAPAL_PRIMACY</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MILITARISTIC_LARGE_INFLUENCE_BONUS_TRIPLE_STARS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_ENCAMPMENT_PAPAL_PRIMACY</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS_BUILDING</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_INDUSTRIAL_ZONE_PAPAL_PRIMACY</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS_DISTRICT</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_INDUSTRIAL_ZONE_PAPAL_PRIMACY</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_LARGE_INFLUENCE_BONUS_TRIPLE_STARS_BUILDING</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_INDUSTRIAL_ZONE_PAPAL_PRIMACY</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_LARGE_INFLUENCE_BONUS_TRIPLE_STARS_DISTRICT</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_INDUSTRIAL_ZONE_PAPAL_PRIMACY</Value>
+		</Row>
+	</ModifierArguments>
 
 </GameData>

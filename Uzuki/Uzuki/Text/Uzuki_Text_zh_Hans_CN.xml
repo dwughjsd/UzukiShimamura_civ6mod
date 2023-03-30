@@ -463,5 +463,382 @@
 			<Text>迎战海军掠袭单位+7 [ICON_Strength] 战斗力。</Text>
 		</Row>
 		-->
+
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHIBUYA_RIN_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>346事务所中有着许多星辰般闪耀的人物，在何时都不会感到迷失的涩谷凛则是点点繁星之一。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHIBUYA_RIN_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>346可以更快招募伟人，使得他们有力竞争多种胜利方式。不过，结合特色城区“星光舞台”，他们还是最擅长取得文化胜利。与卯月不同，凛的能力增强了近战单位的力量，使他们可以使用手中的刀剑守住胜利果实。</Text>
+		</Row>
+
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHIBUYA_RIN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>涩谷凛是《偶像大师 灰姑娘女孩》系列游戏中Cool阵营的代表。被本田未央和粉丝们爱称为“涩凛凛”（Shiburin）的她虽然因外表和语言习惯常常给人距离感，但偶尔她也会展现自己可爱的一面。作为杏仁豆腐为灰姑娘系列创作的第一个角色，在灰姑娘女孩游戏运营早期，就被大量使用在本作的商业广告中。她的形象甚至出现在了偶像大师的剧场版动画中，灰姑娘女孩电视动画的第二季也以类似的构图致敬了这一幕。她也是灰姑娘女孩系列作品中第一个获得角色曲CD的角色。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHIBUYA_RIN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>她为人冷静，对待工作很认真，许多台词也是一本正经的样子，认为既然做了就要做到最好，凡事都要全力以赴。因为主角地位以及高人气，她得以经常和其他偶像来往，并在剧情中担当吐槽角色以及被调戏的对象。尽管在多数时候表现得像比较成熟、比较有常识的人，偶尔凛也会说些奇怪的话。举例来说。她喜欢的颜色是“苍色”而不是蓝色，在奇幻世界中也能轻松编出长串长串的台词。这些显得过分中二的台词也因为“苍色”的说法被称为“苍历史”。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHIBUYA_RIN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>凛的中二病在《碧蓝幻想》联动中显得更为明显。在战斗中，她展现出惊人的剑术，还会喊出“受我苍蓝之剑，Iolite Blue！”这样的台词。她的这种性格一定程度上取材于其配音演员，福原绫香。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHIBUYA_RIN_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>在音乐游戏《偶像大师 灰姑娘女孩 星光舞台》中，她与岛村卯月、本田未央一同组成“New Generation”组合，与北条加莲、神谷奈绪的组合则被称为Triad Primus。同时，她也作为该游戏的图标角色至今。在电视动画《偶像大师 灰姑娘女孩》中，凛作为参加CINDERELLA PROJECT的新人偶像登场，同样组成了New Generations（动画中“generation”为复数）以及Triad Primus两个组合。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHIBUYA_RIN_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>作为作品中人气很高的角色，她赢得了第三届灰姑娘女孩总选举的第一名，在《偶像大师 灰姑娘女孩 星光舞台》2018-19年的新年活动中，凛成为了活动中粉丝数最多的偶像，在活动中共计获得了高达1300亿的粉丝分数。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHIBUYA_RIN_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>凛养有一只名叫“花子”的小狗，爱好也是携犬散步。不过本人也不反感猫。虽然自认为是喜欢狗的一派，但她在官方漫画中也有被戴上猫耳的画面。她的二次设定中最有名的两类为「凛汪汪」与「涩谷喵」，即犬系的凛与猫系的凛。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHIBUYA_RIN_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>截至百科编写时，《偶像大师 灰姑娘女孩 星光舞台》中有11张凛的角色卡，而《偶像大师 灰姑娘女孩》社交游戏中则有24张。她还经常成为与其他作品的合作活动的参与者，出现在诸如《公主连结Re:Dive》或者《影之诗》等作的世界里。</Text>
+		</Row>
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_SHIBUYA_RIN_QUOTE" Language="zh_Hans_CN">
+			<Text>苍蓝之剑啊，予我以羁绊的力量！</Text>
+		</Row>
+
+		<InsertOrIgnore Tag="LOC_DISTRICT_MINE_1_CULTURE" Language="zh_Hans_CN">
+			<Text>相邻矿山提供+{1_num} [ICON_Culture] 文化值。</Text>
+		</InsertOrIgnore>
+
+		<InsertOrIgnore Tag="LOC_DISTRICT_QUARRY_1_CULTURE_RIN" Language="zh_Hans_CN">
+			<Text>相邻采石场提供+{1_num} [ICON_Culture] 文化值。</Text>
+		</InsertOrIgnore>
+
+		<!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>也许我要做出与你的期望不同的回答。我的意思是：我们同意。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>与你们声明友谊？……恐怕其他人也不支持。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>让我们牵起两国友谊的手。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>愿友谊长存。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>令人失望！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>那么……开始战争吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>做好准备，火焰将会毁灭你们！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>我们收到了礼物，愿意友好地对待你们的使团。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>现在不是来参观的好时机。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>我们的使节送出了礼物。有时间看看吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>我们不会因此停止发展。我们会选择自己的道路。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>你们过分的所做所为伤害了我们人民的感情。（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>嗯……你就是新发现的国家的代表？我是涩谷凛。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>出发吧。到我们的城市里走走。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>谢了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>虽然我对我们的城市更有自信，不过对你的首都也稍有兴趣。那是什么样？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>你好。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>对科学和生产的努力让我们的视野可以远至天空的尽头。做得不错。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>这个世界多么不可思议，不去探索遥远的星空就只能迷失在困惑中。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>你想结为同盟吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>好！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>不行。还没……还没结束呢……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>我想我们都能从和平中得到好处。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>是你们的话，我不反对放行。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>我作为被选中的领袖，就有保护人民的义务。我不能同意。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>让我的军队经过你的领土，可以吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>你们是在挑衅吗？不要再把军队放在我们的边境上。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>做得漂亮，你胜利了。我还不够成熟，不足以击败你。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>这样不坏。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SHIBUYA_RIN_ANY" Language="zh_Hans_CN">
+			<Text>太过分了！</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_SHIBUYA_RIN" Language="zh_Hans_CN">
+			<Text>在这不可思议的世界中探索吧，涩谷凛，因为您需要带领您的人民前进。执起您以堇青石装饰的剑，开辟新的道路，以天堂般的美好世界为目标。如果您得以成功，传颂您的功绩的歌声会在帝国全境响起！</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_ETOILE_PRISM_NAME" Language="zh_Hans_CN">
+			<Text>星辰之棱镜</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_ETOILE_PRISM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢 [ICON_Science] 科技值和 [ICON_Production] 生产力较高的文明，不喜欢 [ICON_Science] 科技值和 [ICON_Production] 生产力较低的文明。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SHIBUYA_RIN_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您的科技值和生产力过低）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_ETOILE_PRISM_LOW_SCIENCE_LOW_PRODUCTION" Language="zh_Hans_CN">
+			<Text>凛对您的科技值和生产力感到失望</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SHIBUYA_RIN_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您的科技值和生产力较高）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_ETOILE_PRISM_HIGH_SCIENCE_HIGH_PRODUCTION" Language="zh_Hans_CN">
+			<Text>凛赞赏您重视科技值和生产</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_RECEIVE_AZURE_SWORD_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Movement] 移动力，且编队单位全部获得陪护单位 [ICON_Movement] 移动力。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_AGENDA_BURNING_FRIENDSHIP_NAME" Language="zh_Hans_CN">
+			<Text>燃情友谊</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_BURNING_FRIENDSHIP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢对自己声明友谊且军力强大的文明，不喜欢军事力量弱小的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_HONDA_MIO_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您的军事力量弱小）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_HONDA_MIO_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您向他们声明了友谊，且有强大的军力）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_BURNING_FRIENDSHIP_WEAK_ARMY" Language="zh_Hans_CN">
+			<Text>未央认为您应该努力提升军事实力</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_BURNING_FRIENDSHIP_DECLEAR_FRIEND_STRONG_ARMY" Language="zh_Hans_CN">
+			<Text>未央喜欢军事力量强大的朋友</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HONDA_MIO_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>346事务所中有着许多星辰般闪耀的人物，永远充满活力、从不失去乐观的本田未央则是点点繁星之一。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HONDA_MIO_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>346可以更快获得伟人，尤其是大商业家，来获得以经济优势为主的各种加成，在争取各种类型的胜利方式时都极为有力。不过，结合星光舞台的额外旅游业绩，他们最擅长获得的胜利还是通过文化。未央的独有能力让他们在争夺城邦的宗主地位时有强大的竞争力，对于他们而言及早发现城邦并建立良好的关系可以获益良多，以至走向胜利。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HONDA_MIO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>本田未央是《偶像大师 灰姑娘女孩》系列作品中Passion阵营的代表。她运动与学业全能，永远精神满满。擅于交友的她在学校里甚至和学校食堂的大妈的关系都很好，能因此打到更大份的饭。New Generation组合的三人中，她是性格最积极的角色，但也有细腻的一面。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HONDA_MIO_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>未央最喜欢身边的人起独特的外号，有些叫法甚至为偶像大师的玩家团体所采用。比较常见的例子有“小岛岛”（岛村卯月）、“西部凛”（涩谷凛）、“美嘉姐”（城崎美嘉）。她几乎给所有游戏中的偶像起了外号，但唯独没有给千川千寻取一个。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HONDA_MIO_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>未央和卯月、凛一样是灰姑娘女孩的主角。然而，相当一段时间内，她的活动却是主角之中最少的。凛在游戏早期就获得了一张角色曲CD（并且也是整个作品的第一张角色曲CD），卯月在随后也获得了同样的待遇，两人还都有名为New Generation的稀有角色卡牌。只有未央，在游戏推出近一年的时候仍然没有获得任何新卡片。总而言之，玩家普遍认为这一角色得到的内容过少，直到2012年11月30日，才终于获得了自己的新角色卡。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HONDA_MIO_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>她的人气在总选举中也一度表现不佳。尽管受该活动的规则影响，获得过冠军的角色一般会以后获得的票数会较少，早已获得过总选举冠军的凛和卯月没有一次掉出过前30，但未央却有两次在总选举中被淘汰。在第六届和第七届总选举活动中，她也两次屈居第二。不过，她的好运最终还是在2019年降临了，成为了第8届灰姑娘女孩，也成为了令和年代的第一位灰姑娘女孩。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HONDA_MIO_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>在电视动画中，她的活跃度比起在游戏运营早期则明显提升。凭借自来熟、活泼的性格，未央获得了大量的剧情，反倒是卯月在动画中表现平平，难以给人留下深刻印象。动画的第一季中，未央表现得冲动而不成熟，但在第二季中展现了她的成长，并取得了一定的成功。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HONDA_MIO_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>未央的角色曲《三颗星》于2013年1月23日推出，收录在第15张角色曲CD中。此曲有较高的人气，在两届非官方的偶像大师系列歌曲总选举中都排名前十。另一首由未央演唱的歌曲《STEP!》则传播得更广。在第8次总选举中，Twitter用户hemoglosso制作了一个使用此曲为背景音乐的声援动画，其中Mio踏步前进的动作成为被广泛传播的素材，一定程度上被认为是Mio登上灰姑娘宝座的促进因素。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HONDA_MIO_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>截至百科编写时，《偶像大师 灰姑娘女孩 星光舞台》中有13张未央的角色卡，而《偶像大师 灰姑娘女孩》社交游戏中则有23张。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_LEADER_HONDA_MIO_QUOTE" Language="zh_Hans_CN">
+			<Text>现在是未央的时间！</Text>
+		</Row>
+
+		<!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>诶？好啊，当然！我们现在是友好关系了！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>Not now. 现在不行。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>我们很期待结交新的朋友！你愿意开启两国友谊的新篇章吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>Let's party!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>我好像有点太过热情了呀。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>不要小看我们，你将见识到我们的全力！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>好吧——一决胜负吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>礼物是给我们的？是吗？太好了！谢谢！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>我们还没有准备好，现在不能接收你们的使团。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>我派出了一支带着礼物的使团。他们会带给你们活力！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>我们会像天空的彩虹一样绚烂，不会因你的话语而失色。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>哈，你的统治真糟糕。（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>嘿！我是本田未央，目标是成为顶级领袖！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>来我们附近的城市吧，一起聚个会庆祝我们的相识！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>耶，真棒！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>要和我们交换首都的信息吗？我们很欢迎！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>我们准备好了！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>您是我们可以依赖的朋友。Good job!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>诶！你的军力太弱了！要更重视些呀！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>您想结为同盟吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>真高兴我们能获得和平。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>我们的目标不止这些！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>见识了战争的厉害了吧？您愿意和谈吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>我们信任你。没有问题！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>未央也不会总是能准备好放行你们的军队。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>请允许我们的军队路过吧，朋友！我们需要尽快！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>我们的边界应该充满快乐而不是军队。您绝对会做到吧？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>啊啊，不甘心……但我们的将来已经由你掌握了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>真棒！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_HONDA_MIO_ANY" Language="zh_Hans_CN">
+			<Text>好遗憾呀！</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_HONDA_MIO" Language="zh_Hans_CN">
+			<Text>本田未央，您会获得许多真正的朋友。无论目标多么艰难，他们总在您的身边，帮助您经受时间的考验。以您的热情和活力建立坚固的友谊吧，如此，即使是赢得整个世界的挑战也无需畏惧。</Text>
+		</Row>
+
 	</LocalizedText>
 </GameData>

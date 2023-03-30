@@ -13,7 +13,6 @@
 			<Text>星光舞台</Text>
 		</Row>
 
-		<!--DEPRECATED:每个商业中心为其提供+2 [ICON_Culture] 文化值加成。-->
 		<Row Tag="LOC_DISTRICT_STARLIGHT_STAGE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>346特色文化活动区域，替代剧院广场，建造费用更低。[NEWLINE][NEWLINE]如此城尚未拥有商业中心或港口区域，[ICON_TradeRoute] 贸易路线容量+1。研发“飞行”科技后可提供10 [ICON_Tourism] 旅游业绩。</Text>
 		</Row>
@@ -26,12 +25,9 @@
 			<Text>{LOC_DISTRICT_STARLIGHT_STAGE_DESCRIPTION_XP1}</Text>
 		</Row>
 
-		<!--DEPRECATED:从每个相邻商业中心区域获得大额 [ICON_Culture] 文化加成。-->
 		<Row Tag="LOC_DISTRICT_STARLIGHT_STAGE_DESCRIPTION_ADJACENCY" Language="zh_Hans_CN">
 			<Text>{LOC_DISTRICT_THEATER_DESCRIPTION_ADJACENCY}</Text>
 		</Row>
-		
-
 
 		<!--
 		<Row Tag="LOC_UNIT_346_MUTSUKI_NAME" Language="zh_Hans_CN">
@@ -75,5 +71,26 @@
 			<Text>额外获得25%的 [ICON_GreatWriter] 大文学家、 [ICON_GreatArtist] 大美术家、 [ICON_GreatMusician] 大音乐家、 [ICON_GreatScientist] 大科学家、 [ICON_GreatEngineer] 大工程师以及 [ICON_GreatMerchant] 大商业家点数。每获得1位伟人，[ICON_Gold] 金币便+1%（上限为+30%）。每件 [ICON_GreatWork_Writing] 著作巨作、 [ICON_GreatWork_Landscape] 艺术巨作和 [ICON_GreatWork_Music] 音乐巨作+1 [ICON_Culture] 文化、 +4 [ICON_Gold] 金币。修建剧院广场建筑时+100% [ICON_Production] 生产力。</Text>
 		</Row>
 
+
+		<Row Tag="LOC_LEADER_SHIBUYA_RIN_NAME" Language="zh_Hans_CN">
+			<Text>涩谷凛</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_AZURE_SWORD_NAME" Language="zh_Hans_CN">
+			<Text>苍蓝之剑</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_AZURE_SWORD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>陆军近战单位+1 [ICON_Movement] 移动力，且编队单位全部获得陪护单位 [ICON_Movement] 移动力。矿山和采石场为剧院广场提供标准相邻加成。已改良的 [ICON_RESOURCE_IRON] 铁、 [ICON_RESOURCE_STONE] 石材和 [ICON_RESOURCE_MARBLE] 大理石资源提供+1 [ICON_Science] 科技值，+1 [ICON_Production] 生产力。</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_HONDA_MIO_NAME" Language="zh_Hans_CN">
+			<Text>本田未央</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HONDA_MIO_NAME" Language="zh_Hans_CN">
+			<Text>友谊三连星</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HONDA_MIO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从城邦获得的影响力加成增加50%。</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

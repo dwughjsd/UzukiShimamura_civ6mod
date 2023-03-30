@@ -137,6 +137,78 @@
 			<m_EntryID text="LeaderUzuki80"/>
 			<m_ObjectName text="LeaderUzuki80"/>
 		</Element>
+		<Element>
+			<m_EntryID text="LeaderHondaMio256"/>
+			<m_ObjectName text="LeaderHondaMio256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderHondaMio32"/>
+			<m_ObjectName text="LeaderHondaMio32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderHondaMio45"/>
+			<m_ObjectName text="LeaderHondaMio45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderHondaMio48"/>
+			<m_ObjectName text="LeaderHondaMio48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderHondaMio50"/>
+			<m_ObjectName text="LeaderHondaMio50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderHondaMio55"/>
+			<m_ObjectName text="LeaderHondaMio55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderHondaMio64"/>
+			<m_ObjectName text="LeaderHondaMio64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderHondaMio80"/>
+			<m_ObjectName text="LeaderHondaMio80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderShibuyaRin256"/>
+			<m_ObjectName text="LeaderShibuyaRin256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderShibuyaRin32"/>
+			<m_ObjectName text="LeaderShibuyaRin32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderShibuyaRin45"/>
+			<m_ObjectName text="LeaderShibuyaRin45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderShibuyaRin48"/>
+			<m_ObjectName text="LeaderShibuyaRin48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderShibuyaRin50"/>
+			<m_ObjectName text="LeaderShibuyaRin50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderShibuyaRin55"/>
+			<m_ObjectName text="LeaderShibuyaRin55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderShibuyaRin64"/>
+			<m_ObjectName text="LeaderShibuyaRin64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderShibuyaRin80"/>
+			<m_ObjectName text="LeaderShibuyaRin80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MishiroMio45"/>
+			<m_ObjectName text="MishiroMio45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MishiroRin45"/>
+			<m_ObjectName text="MishiroRin45"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

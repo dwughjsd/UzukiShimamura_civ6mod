@@ -13,5 +13,29 @@
 			<Alt3PrimaryColor>COLOR_STANDARD_RED_LT</Alt3PrimaryColor>
 			<Alt3SecondaryColor>COLOR_STANDARD_BLUE_DK</Alt3SecondaryColor>
 		</Row>
+		<Row>
+			<Type>LEADER_SHIBUYA_RIN</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_STANDARD_BLUE_MD</PrimaryColor>
+			<SecondaryColor>COLOR_STANDARD_WHITE_LT</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_BLUE_MD</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_BLUE_LT</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_WHITE_LT</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_BLUE_LT</Alt3SecondaryColor>
+		</Row>
+		<Row>
+			<Type>LEADER_HONDA_MIO</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_STANDARD_YELLOW_MD</PrimaryColor>
+			<SecondaryColor>COLOR_STANDARD_WHITE_LT</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_YELLOW_MD</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_YELLOW_LT</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_WHITE_LT</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_YELLOW_LT</Alt3SecondaryColor>
+		</Row>
 	</PlayerColors>
 </GameData>

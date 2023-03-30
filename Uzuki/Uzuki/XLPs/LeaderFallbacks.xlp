@@ -13,6 +13,14 @@
 			<m_EntryID text="FALLBACK_NEUTRAL_UZUKI"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_UZUKI"/>
 		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_SHIBUYARIN"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_SHIBUYARIN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_HONDAMIO"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_HONDAMIO"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

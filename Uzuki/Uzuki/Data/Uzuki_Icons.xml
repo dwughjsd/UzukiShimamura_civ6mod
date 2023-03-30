@@ -38,6 +38,49 @@
 		<Row Filename="Trainer32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_TRAINER"/>
 		<Row Filename="Trainer22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_TRAINER"/>
 
+		<Row Filename="LeaderShibuyaRin32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_SHIBUYA_RIN"/>
+		<Row Filename="LeaderShibuyaRin45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_SHIBUYA_RIN"/>
+		<Row Filename="LeaderShibuyaRin48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_SHIBUYA_RIN"/>
+		<Row Filename="LeaderShibuyaRin50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_SHIBUYA_RIN"/>
+		<Row Filename="LeaderShibuyaRin55" IconsPerColumn="1" IconsPerRow="1" IconSize="55" Name="ICON_ATLAS_SHIBUYA_RIN"/>
+		<Row Filename="LeaderShibuyaRin64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_SHIBUYA_RIN"/>
+		<Row Filename="LeaderShibuyaRin80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_SHIBUYA_RIN"/>
+		<Row Filename="LeaderShibuyaRin256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_SHIBUYA_RIN"/>
+
+		<Row Filename="Mishiro256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_MISHIRO_RIN"/>
+		<Row Filename="Mishiro128" IconsPerColumn="1" IconsPerRow="1" IconSize="128" Name="ICON_ATLAS_MISHIRO_RIN"/>
+		<Row Filename="Mishiro80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_MISHIRO_RIN"/>
+		<Row Filename="Mishiro64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_MISHIRO_RIN"/>
+		<Row Filename="Mishiro50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_MISHIRO_RIN"/>
+		<Row Filename="Mishiro48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_MISHIRO_RIN"/>
+		<Row Filename="MishiroRin45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_MISHIRO_RIN"/>
+		<Row Filename="Mishiro44" IconsPerColumn="1" IconsPerRow="1" IconSize="44" Name="ICON_ATLAS_MISHIRO_RIN"/>
+		<Row Filename="Mishiro36" IconsPerColumn="1" IconsPerRow="1" IconSize="36" Name="ICON_ATLAS_MISHIRO_RIN"/>
+		<Row Filename="Mishiro32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_MISHIRO_RIN"/>
+		<Row Filename="Mishiro30" IconsPerColumn="1" IconsPerRow="1" IconSize="30" Name="ICON_ATLAS_MISHIRO_RIN"/>
+		<Row Filename="Mishiro22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_MISHIRO_RIN"/>
+
+		<Row Filename="LeaderHondaMio32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_HONDA_MIO"/>
+		<Row Filename="LeaderHondaMio45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_HONDA_MIO"/>
+		<Row Filename="LeaderHondaMio48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_HONDA_MIO"/>
+		<Row Filename="LeaderHondaMio50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_HONDA_MIO"/>
+		<Row Filename="LeaderHondaMio55" IconsPerColumn="1" IconsPerRow="1" IconSize="55" Name="ICON_ATLAS_HONDA_MIO"/>
+		<Row Filename="LeaderHondaMio64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_HONDA_MIO"/>
+		<Row Filename="LeaderHondaMio80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_HONDA_MIO"/>
+		<Row Filename="LeaderHondaMio256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_HONDA_MIO"/>
+
+		<Row Filename="Mishiro256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_MISHIRO_MIO"/>
+		<Row Filename="Mishiro128" IconsPerColumn="1" IconsPerRow="1" IconSize="128" Name="ICON_ATLAS_MISHIRO_MIO"/>
+		<Row Filename="Mishiro80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_MISHIRO_MIO"/>
+		<Row Filename="Mishiro64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_MISHIRO_MIO"/>
+		<Row Filename="Mishiro50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_MISHIRO_MIO"/>
+		<Row Filename="Mishiro48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_MISHIRO_MIO"/>
+		<Row Filename="MishiroMio45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_MISHIRO_MIO"/>
+		<Row Filename="Mishiro44" IconsPerColumn="1" IconsPerRow="1" IconSize="44" Name="ICON_ATLAS_MISHIRO_MIO"/>
+		<Row Filename="Mishiro36" IconsPerColumn="1" IconsPerRow="1" IconSize="36" Name="ICON_ATLAS_MISHIRO_MIO"/>
+		<Row Filename="Mishiro32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_MISHIRO_MIO"/>
+		<Row Filename="Mishiro30" IconsPerColumn="1" IconsPerRow="1" IconSize="30" Name="ICON_ATLAS_MISHIRO_MIO"/>
+		<Row Filename="Mishiro22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_MISHIRO_MIO"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<Row Name="ICON_CIVILIZATION_MISHIRO" Atlas="ICON_ATLAS_MISHIRO" Index="0"/>
@@ -61,5 +104,11 @@
 		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_346_TRAINER_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS" Index="8"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_346_TRAINER_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="8"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_346_TRAINER_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS" Index="8"/>
+
+		<Row Name="ICON_CIVILIZATION_MISHIRO_RIN" Atlas="ICON_ATLAS_MISHIRO_RIN" Index="0"/>
+		<Row Name="ICON_LEADER_SHIBUYA_RIN" Atlas="ICON_ATLAS_SHIBUYA_RIN" Index="0"/>
+
+		<Row Name="ICON_LEADER_HONDA_MIO" Atlas="ICON_ATLAS_HONDA_MIO" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_MISHIRO_MIO" Atlas="ICON_ATLAS_MISHIRO_MIO" Index="0"/>
 	</IconDefinitions>
 </GameData>

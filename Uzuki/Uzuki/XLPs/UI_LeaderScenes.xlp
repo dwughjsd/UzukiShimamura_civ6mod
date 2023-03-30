@@ -17,6 +17,22 @@
 			<m_EntryID text="UZUKI_4"/>
 			<m_ObjectName text="BARBAROSSA_4"/>
 		</Element>
+		<Element>
+			<m_EntryID text="HONDA_MIO_1"/>
+			<m_ObjectName text="HONDA_MIO_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SHIBUYA_RIN_1"/>
+			<m_ObjectName text="SHIBUYA_RIN_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HONDA_MIO_4"/>
+			<m_ObjectName text="BARBAROSSA_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SHIBUYA_RIN_4"/>
+			<m_ObjectName text="BARBAROSSA_4"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

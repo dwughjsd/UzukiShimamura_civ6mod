@@ -1,0 +1,1 @@
+UPDATE LocalizedText SET Text = "从贸易城邦获得的影响力加成为目标建筑+2 [ICON_Gold] 金钱，从其他城邦获得的影响力加成为目标建筑+1相应产出。" WHERE EXISTS (SELECT * FROM LocalizedText WHERE Tag = "LOC_CIVILIZATION_ETHIOPIA_NAME") AND Tag = "LOC_TRAIT_LEADER_HONDA_MIO_DESCRIPTION" AND Language = "zh_Hans_CN";

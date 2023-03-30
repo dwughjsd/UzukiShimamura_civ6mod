@@ -7,6 +7,18 @@
 				<Sex>Female</Sex>
 			</Set>
 		</Update>
+		<Update>
+			<Where LeaderType="LEADER_SHIBUYA_RIN"/>
+			<Set>
+				<Sex>Female</Sex>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HONDA_MIO"/>
+			<Set>
+				<Sex>Female</Sex>
+			</Set>
+		</Update>
 	</Leaders>
 
 	<Districts>
@@ -98,5 +110,414 @@
 	<UnitUpgrades>
 		<Row Unit="UNIT_346_TRAINER" UpgradeUnit="UNIT_SUPPLY_CONVOY"/>
 	</UnitUpgrades>
+	
+	<!--Mio-->
+
+	<Modifiers>
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_YIELD_FOR_LIBRARY_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_YIELD_FOR_UNIVERSITY_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_YIELD_FOR_SHRINE_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_YIELD_FOR_TEMPLE_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_YIELD_FOR_MARKET_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_YIELD_FOR_BANK_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_AMPHITHEATER_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_ART_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_ARTIFACT_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_BARRACKS_STABLE_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PRODUCTION_CHANGE</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_BARRACKS_STABLE_MILITARITIC_CITY_STATE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_ARMORY_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PRODUCTION_CHANGE</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_ARMORY</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_WORKSHOP_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_CHANGE</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_WORKSHOP</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_WORKSHOP_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION_CHANGE</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_WORKSHOP</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_FACTORY_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_CHANGE</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_FACTORY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_FACTORY_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION_CHANGE</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_FACTORY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_LARGE_INFLUENCE_BONUS_ARTIFACT_TRIPLE_STARS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LARGE_INFLUENCE_AND_TRIPLE_STARS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_YIELD_FOR_LIBRARY_TRIPLE_STARS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_YIELD_FOR_LIBRARY_TRIPLE_STARS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_LIBRARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_YIELD_FOR_LIBRARY_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_YIELD_FOR_LIBRARY_TRIPLE_STARS</ModifierId>
+			<Name>CityStatesOnly</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_YIELD_FOR_UNIVERSITY_TRIPLE_STARS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_YIELD_FOR_UNIVERSITY_TRIPLE_STARS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_UNIVERSITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_YIELD_FOR_UNIVERSITY_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_SCIENTIFIC_YIELD_FOR_UNIVERSITY_TRIPLE_STARS</ModifierId>
+			<Name>CityStatesOnly</Name>
+			<Value>true</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_YIELD_FOR_SHRINE_TRIPLE_STARS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_YIELD_FOR_SHRINE_TRIPLE_STARS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_SHRINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_YIELD_FOR_SHRINE_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_YIELD_FOR_SHRINE_TRIPLE_STARS</ModifierId>
+			<Name>CityStatesOnly</Name>
+			<Value>true</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_YIELD_FOR_TEMPLE_TRIPLE_STARS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_YIELD_FOR_TEMPLE_TRIPLE_STARS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_TEMPLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_YIELD_FOR_TEMPLE_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RELIGIOUS_YIELD_FOR_TEMPLE_TRIPLE_STARS</ModifierId>
+			<Name>CityStatesOnly</Name>
+			<Value>true</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_YIELD_FOR_MARKET_TRIPLE_STARS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_YIELD_FOR_MARKET_TRIPLE_STARS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MARKET</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_YIELD_FOR_MARKET_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_YIELD_FOR_MARKET_TRIPLE_STARS</ModifierId>
+			<Name>CityStatesOnly</Name>
+			<Value>true</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_YIELD_FOR_BANK_TRIPLE_STARS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_YIELD_FOR_BANK_TRIPLE_STARS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_BANK</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_YIELD_FOR_BANK_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TRADE_YIELD_FOR_BANK_TRIPLE_STARS</ModifierId>
+			<Name>CityStatesOnly</Name>
+			<Value>true</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_AMPHITHEATER_TRIPLE_STARS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_AMPHITHEATER_TRIPLE_STARS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_AMPHITHEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_AMPHITHEATER_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_AMPHITHEATER_TRIPLE_STARS</ModifierId>
+			<Name>CityStatesOnly</Name>
+			<Value>true</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_ART_TRIPLE_STARS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_ART_TRIPLE_STARS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MUSEUM_ART</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_ART_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_ART_TRIPLE_STARS</ModifierId>
+			<Name>CityStatesOnly</Name>
+			<Value>true</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_ARTIFACT_TRIPLE_STARS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_ARTIFACT_TRIPLE_STARS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MUSEUM_ARTIFACT</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_ARTIFACT_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_YIELD_FOR_ARTIFACT_TRIPLE_STARS</ModifierId>
+			<Name>CityStatesOnly</Name>
+			<Value>true</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_BARRACKS_STABLE_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_ARMORY_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_WORKSHOP_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_WORKSHOP_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_FACTORY_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_FACTORY_TRIPLE_STARS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Update>
+			<Where ModifierId="MINOR_CIV_SCIENTIFIC_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS"/>
+			<Set>
+				<Value>MINOR_CIV_SCIENTIFIC_YIELD_FOR_LIBRARY_TRIPLE_STARS</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_SCIENTIFIC_LARGE_INFLUENCE_BONUS_TRIPLE_STARS"/>
+			<Set>
+				<Value>MINOR_CIV_SCIENTIFIC_YIELD_FOR_UNIVERSITY_TRIPLE_STARS</Value>
+			</Set>
+		</Update>
+
+		<Update>
+			<Where ModifierId="MINOR_CIV_RELIGIOUS_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS"/>
+			<Set>
+				<Value>MINOR_CIV_RELIGIOUS_YIELD_FOR_SHRINE_TRIPLE_STARS</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_RELIGIOUS_LARGE_INFLUENCE_BONUS_TRIPLE_STARS"/>
+			<Set>
+				<Value>MINOR_CIV_RELIGIOUS_YIELD_FOR_TEMPLE_TRIPLE_STARS</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_TRADE_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS"/>
+			<Set>
+				<Value>MINOR_CIV_TRADE_YIELD_FOR_MARKET_TRIPLE_STARS</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_TRADE_LARGE_INFLUENCE_BONUS_TRIPLE_STARS"/>
+			<Set>
+				<Value>MINOR_CIV_TRADE_YIELD_FOR_BANK_TRIPLE_STARS</Value>
+			</Set>
+		</Update>
+
+
+		<Update>
+			<Where ModifierId="MINOR_CIV_CULTURAL_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS"/>
+			<Set>
+				<Value>MINOR_CIV_CULTURAL_YIELD_FOR_AMPHITHEATER_TRIPLE_STARS</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_CULTURAL_LARGE_INFLUENCE_BONUS_TRIPLE_STARS"/>
+			<Set>
+				<Value>MINOR_CIV_CULTURAL_YIELD_FOR_ART_TRIPLE_STARS</Value>
+			</Set>
+		</Update>
+
+
+		<Update>
+			<Where ModifierId="MINOR_CIV_MILITARISTIC_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS"/>
+			<Set>
+				<Value>MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_BARRACKS_STABLE_TRIPLE_STARS</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_MILITARISTIC_LARGE_INFLUENCE_BONUS_TRIPLE_STARS"/>
+			<Set>
+				<Value>MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_ARMORY_TRIPLE_STARS</Value>
+			</Set>
+		</Update>
+
+		<Update>
+			<Where ModifierId="MINOR_CIV_INDUSTRIAL_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS_BUILDING"/>
+			<Set>
+				<Value>MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_WORKSHOP_TRIPLE_STARS</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_INDUSTRIAL_MEDIUM_INFLUENCE_BONUS_TRIPLE_STARS_DISTRICT"/>
+			<Set>
+				<Value>MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_WORKSHOP_TRIPLE_STARS</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_INDUSTRIAL_LARGE_INFLUENCE_BONUS_TRIPLE_STARS_BUILDING"/>
+			<Set>
+				<Value>MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_FACTORY_TRIPLE_STARS</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_INDUSTRIAL_LARGE_INFLUENCE_BONUS_TRIPLE_STARS_DISTRICT"/>
+			<Set>
+				<Value>MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_FACTORY_TRIPLE_STARS</Value>
+			</Set>
+		</Update>
+	</ModifierArguments>
+
+	<TraitModifiers>
+		<Row TraitType="MINOR_CIV_CULTURAL_TRAIT" ModifierId="MINOR_CIV_CULTURAL_LARGE_INFLUENCE_BONUS_ARTIFACT_TRIPLE_STARS"/>
+	</TraitModifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MINOR_CIV_CULTURAL_LARGE_INFLUENCE_BONUS_ARTIFACT_TRIPLE_STARS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_CULTURAL_YIELD_FOR_ARTIFACT_TRIPLE_STARS</Value>
+		</Row>
+	</ModifierArguments>
+
 
 </GameData>

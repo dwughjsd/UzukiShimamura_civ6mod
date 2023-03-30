@@ -13,9 +13,9 @@
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="UzukiArt"><Criteria>MishiroUzuki</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="UzukiColors"><Criteria>MishiroUzuki</Criteria><File>Data/Uzuki_Colors.xml</File></UpdateColors><UpdateIcons id="UzukiIcons"><Criteria>MishiroUzuki</Criteria><File>Data/Uzuki_Icons.xml</File></UpdateIcons><UpdateDatabase id="UzukiGameplay"><Criteria>MishiroUzuki</Criteria><File>Data/Uzuki_Civilizations.xml</File><File>Data/Uzuki_Districts.xml</File><File>Data/Uzuki_Units.xml</File><File>Data/Uzuki_Leaders.xml</File><File>Data/Uzuki_Monopolies.sql</File></UpdateDatabase><UpdateDatabase id="UzukiGameplay_XP1"><Criteria>MishiroUzuki_Expansion1</Criteria><File>Data/Uzuki_Expansion1.xml</File></UpdateDatabase><UpdateDatabase id="UzukiGameplay_XP2"><Criteria>MishiroUzuki_Expansion2</Criteria><File>Data/Uzuki_Expansion2.xml</File></UpdateDatabase><UpdateLogitechARX id="UzukiARX"><Criteria>MishiroUzuki</Criteria><File>Data/ARX/Civ_LEADER_UZUKI.png</File></UpdateLogitechARX><UpdateText id="UzukiText"><Criteria>MishiroUzuki</Criteria><File>Text/Uzuki_ConfigText_AFallback.xml</File><File>Text/Uzuki_Text_AFallback.xml</File><File>Text/Uzuki_ConfigText_zh_Hans_CN.xml</File><File>Text/Uzuki_Text_zh_Hans_CN.xml</File></UpdateText><UpdateDatabase id="UzukiGameplay_Maya"><Criteria>Maya</Criteria><File>Data/Uzuki_Maya.xml</File></UpdateDatabase><UpdateDatabase id="UzukiGameplay_SecretSocieties"><Criteria>SecretSocieties</Criteria><File>Data/Uzuki_Ethiopia.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="UzukiSettings"><File>Data/Uzuki_Config.xml</File></UpdateDatabase><UpdateColors id="UzukiSettingsColors"><File>Data/Uzuki_Colors.xml</File></UpdateColors><UpdateIcons id="UzukiSettingsIcons"><File>Data/Uzuki_Icons.xml</File></UpdateIcons><UpdateArt id="UzukiSettingsArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateText id="UzukiSettingsText"><File>Text/Uzuki_ConfigText_AFallback.xml</File><File>Text/Uzuki_ConfigText_zh_Hans_CN.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
-    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="MishiroUzuki"><LeaderPlayable>Players:StandardPlayers::LEADER_UZUKI,StandardPlayers::LEADER_UZUKI,Players:Expansion1_Players::LEADER_UZUKI,Players:Expansion2_Players::LEADER_UZUKI</LeaderPlayable><RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="MishiroUzuki_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_UZUKI</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="MishiroUzuki_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_UZUKI</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="Maya"><LeaderPlayable>Players:StandardPlayers::LEADER_UZUKI,StandardPlayers::LEADER_UZUKI,Players:Expansion1_Players::LEADER_UZUKI,Players:Expansion2_Players::LEADER_UZUKI</LeaderPlayable><ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse></Criteria><Criteria id="SecretSocieties"><LeaderPlayable>Players:StandardPlayers::LEADER_UZUKI,StandardPlayers::LEADER_UZUKI,Players:Expansion1_Players::LEADER_UZUKI,Players:Expansion2_Players::LEADER_UZUKI</LeaderPlayable><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="UzukiArt"><Criteria>MishiroUzuki</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="UzukiColors"><Criteria>MishiroUzuki</Criteria><File>Data/Uzuki_Colors.xml</File></UpdateColors><UpdateIcons id="UzukiIcons"><Criteria>MishiroUzuki</Criteria><File>Data/Uzuki_Icons.xml</File></UpdateIcons><UpdateDatabase id="UzukiGameplay"><Criteria>MishiroUzuki</Criteria><File>Data/Uzuki_Civilizations.xml</File><File>Data/Uzuki_Districts.xml</File><File>Data/Uzuki_Units.xml</File><File>Data/Uzuki_Leaders.xml</File><File>Data/Uzuki_Monopolies.sql</File></UpdateDatabase><UpdateDatabase id="UzukiGameplay_XP1"><Criteria>MishiroUzuki_Expansion1</Criteria><File>Data/Uzuki_Expansion1.xml</File></UpdateDatabase><UpdateDatabase id="UzukiGameplay_XP2"><Criteria>MishiroUzuki_Expansion2</Criteria><File>Data/Uzuki_Expansion2.xml</File></UpdateDatabase><UpdateLogitechARX id="UzukiARX"><Criteria>MishiroUzuki</Criteria><File>Data/ARX/Civ_LEADER_UZUKI.png</File><File>Data/ARX/Civ_LEADER_SHIBUYA_RIN.png</File><File>Data/ARX/Civ_LEADER_HONDA_MIO.png</File></UpdateLogitechARX><UpdateText id="UzukiText"><Criteria>MishiroUzuki</Criteria><File>Text/Uzuki_ConfigText_AFallback.xml</File><File>Text/Uzuki_Text_AFallback.xml</File><File>Text/Uzuki_ConfigText_zh_Hans_CN.xml</File><File>Text/Uzuki_Text_zh_Hans_CN.xml</File><File>Text/Uzuki_Ethiopia_ConfigText.sql</File></UpdateText><UpdateDatabase id="UzukiGameplay_Maya"><Criteria>Maya</Criteria><File>Data/Uzuki_Maya.xml</File></UpdateDatabase><UpdateDatabase id="UzukiGameplay_SecretSocieties"><Criteria>SecretSocieties</Criteria><File>Data/Uzuki_Ethiopia.xml</File></UpdateDatabase><UpdateDatabase id="UzukiGameplay_Ethiopia"><Criteria>Uzuki_Ethiopia</Criteria><File>Data/Uzuki_Ethiopia.xml</File></UpdateDatabase><UpdateDatabase id="UzukiGameplay_Ethiopia_XP1"><Criteria>Uzuki_Ethiopia_Expansion1</Criteria><File>Data/Uzuki_Ethiopia_Expansion1.xml</File></UpdateDatabase><UpdateDatabase id="UzukiGameplay_Ethiopia_XP2"><Criteria>Uzuki_Ethiopia_Expansion2</Criteria><File>Data/Uzuki_Ethiopia_Expansion2.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="UzukiSettings"><File>Data/Uzuki_Config.xml</File></UpdateDatabase><UpdateColors id="UzukiSettingsColors"><File>Data/Uzuki_Colors.xml</File></UpdateColors><UpdateIcons id="UzukiSettingsIcons"><File>Data/Uzuki_Icons.xml</File></UpdateIcons><UpdateArt id="UzukiSettingsArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateText id="UzukiSettingsText"><File>Text/Uzuki_ConfigText_AFallback.xml</File><File>Text/Uzuki_ConfigText_zh_Hans_CN.xml</File><File>Text/Uzuki_Ethiopia_ConfigText.sql</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="MishiroUzuki"><LeaderPlayable>Players:StandardPlayers::LEADER_UZUKI,StandardPlayers::LEADER_UZUKI,Players:Expansion1_Players::LEADER_UZUKI,Players:Expansion2_Players::LEADER_UZUKI</LeaderPlayable><RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="MishiroUzuki_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_UZUKI</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="MishiroUzuki_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_UZUKI</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="Maya"><LeaderPlayable>Players:StandardPlayers::LEADER_UZUKI,StandardPlayers::LEADER_UZUKI,Players:Expansion1_Players::LEADER_UZUKI,Players:Expansion2_Players::LEADER_UZUKI</LeaderPlayable><ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse></Criteria><Criteria id="SecretSocieties"><LeaderPlayable>Players:StandardPlayers::LEADER_UZUKI,StandardPlayers::LEADER_UZUKI,Players:Expansion1_Players::LEADER_UZUKI,Players:Expansion2_Players::LEADER_UZUKI</LeaderPlayable><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria><Criteria id="Uzuki_Ethiopia"><LeaderPlayable>Players:StandardPlayers::LEADER_HONDA_MIO,StandardPlayers::LEADER_HONDA_MIO,Players:Expansion1_Players::LEADER_HONDA_MIO,Players:Expansion2_Players::LEADER_HONDA_MIO</LeaderPlayable><ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse><RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="Uzuki_Ethiopia_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_HONDA_MIO</LeaderPlayable><ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="Uzuki_Ethiopia_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_HONDA_MIO</LeaderPlayable><ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssociationData><![CDATA[<Associations>
   <Reference type="Dlc" title="LOC_EXPANSION1_MOD_TITLE" id="1B28771A-C749-434B-9053-D1380C553DE9" />
   <Reference type="Dlc" title="LOC_EXPANSION2_MOD_TITLE" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
@@ -30,7 +30,19 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Data\ARX\Civ_LEADER_HONDA_MIO.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\ARX\Civ_LEADER_SHIBUYA_RIN.png">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Data\ARX\Civ_LEADER_UZUKI.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Uzuki_Ethiopia_Expansion1.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Uzuki_Ethiopia_Expansion2.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Uzuki_Civilizations.xml">
@@ -46,6 +58,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Uzuki_Ethiopia.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Uzuki_SecretSocieties_MODE.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Uzuki_Expansion1.xml">
@@ -67,6 +82,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Uzuki_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Uzuki_Ethiopia_ConfigText.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\Uzuki_ConfigText_AFallback.xml">

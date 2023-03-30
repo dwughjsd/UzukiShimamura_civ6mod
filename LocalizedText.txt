@@ -1,0 +1,14 @@
+  <LocalizedText>
+    <Text id="LOC_UZUKI_MOD_TITLE">
+      <en_US>New Generations Pack</en_US>
+      <zh_Hans_CN>新星世代包</zh_Hans_CN>
+    </Text>
+      <Text id="LOC_UZUKI_MOD_TEASER">
+      <en_US>New Civilization and Leaders - Rin Shibuya and Mio Honda of 346 and Uzuki Shimamura, an alternate leader for 346 and Landosol</en_US>
+      <zh_Hans_CN>新文明和领袖——346的涩谷凛和本田未央，以及领导346和兰德索尔的岛村卯月</zh_Hans_CN>
+    </Text>
+      <Text id="LOC_UZUKI_MOD_DESCRIPTION">
+      <en_US>Contains a new civilization and 3 leaders.</en_US>
+      <zh_Hans_CN>包含1个新文明及3位领袖。</zh_Hans_CN>
+    </Text>
+  </LocalizedText>

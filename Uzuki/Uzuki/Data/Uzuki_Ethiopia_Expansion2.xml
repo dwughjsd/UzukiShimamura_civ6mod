@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HondaMio_Ethiopia_Expansion2 -->
+<!-- Author: Admin -->
+<!-- DateCreated: 8/18/2020 8:53:24 PM -->
+<GameData>
+	<TraitModifiers>
+		<Delete TraitType="MINOR_CIV_TRADE_TRAIT" ModifierId="MINOR_CIV_TRADE_MEDIUM_INFLUENCE_BONUS_LIGHTHOUSE_TRIPLE_STARS"/>
+		<Delete TraitType="MINOR_CIV_TRADE_TRAIT" ModifierId="MINOR_CIV_TRADE_LARGE_INFLUENCE_BONUS_SHIPYARD_TRIPLE_STARS"/>
+		<Delete TraitType="MINOR_CIV_CULTURAL_TRAIT" ModifierId="MINOR_CIV_CULTURAL_LARGE_INFLUENCE_BONUS_ARTIFACT_TRIPLE_STARS"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Delete ModifierId="MINOR_CIV_TRADE_MEDIUM_INFLUENCE_BONUS_LIGHTHOUSE_TRIPLE_STARS"/>
+		<Delete ModifierId="MINOR_CIV_TRADE_LARGE_INFLUENCE_BONUS_SHIPYARD_TRIPLE_STARS"/>
+		<Delete ModifierId="MINOR_CIV_CULTURAL_LARGE_INFLUENCE_BONUS_ARTIFACT_TRIPLE_STARS"/>
+	</Modifiers>
+</GameData>
