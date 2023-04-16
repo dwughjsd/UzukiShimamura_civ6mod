@@ -448,6 +448,7 @@
 			<libraryName text="Leader"/>
 			<relativePackagePaths>
 				<Element text="/leaders/leader_uzuki"/>
+				<Element text="/leaders/leader_landsoluzuki"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

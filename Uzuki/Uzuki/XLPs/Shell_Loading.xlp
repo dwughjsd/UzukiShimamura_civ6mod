@@ -21,6 +21,10 @@
 			<m_EntryID text="LEADER_HONDA_MIO_BACKGROUND"/>
 			<m_ObjectName text="LEADER_PERICLES_BACKGROUND"/>
 		</Element>
+		<Element>
+			<m_EntryID text="LEADER_UZUKI_LANDSOL_BACKGROUND"/>
+			<m_ObjectName text="LEADER_UZUKI_LANDSOL_BACKGROUND"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

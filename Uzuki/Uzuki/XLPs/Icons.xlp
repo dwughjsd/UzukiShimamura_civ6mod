@@ -209,6 +209,42 @@
 			<m_EntryID text="MishiroRin45"/>
 			<m_ObjectName text="MishiroRin45"/>
 		</Element>
+		<Element>
+			<m_EntryID text="LandsolUzuki45"/>
+			<m_ObjectName text="LandsolUzuki45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderUzukiLandsol80"/>
+			<m_ObjectName text="LeaderUzukiLandsol80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderUzukiLandsol256"/>
+			<m_ObjectName text="LeaderUzukiLandsol256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderUzukiLandsol32"/>
+			<m_ObjectName text="LeaderUzukiLandsol32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderUzukiLandsol45"/>
+			<m_ObjectName text="LeaderUzukiLandsol45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderUzukiLandsol48"/>
+			<m_ObjectName text="LeaderUzukiLandsol48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderUzukiLandsol50"/>
+			<m_ObjectName text="LeaderUzukiLandsol50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderUzukiLandsol55"/>
+			<m_ObjectName text="LeaderUzukiLandsol55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderUzukiLandsol64"/>
+			<m_ObjectName text="LeaderUzukiLandsol64"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

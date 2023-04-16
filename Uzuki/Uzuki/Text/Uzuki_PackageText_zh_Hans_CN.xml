@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_UZUKI_MOD_TITLE" Language="zh_Hans_CN">
+			<Text>新星世代包</Text>
+		</Row>
+		<Row Tag="LOC_UZUKI_MOD_TEASER" Language="zh_Hans_CN">
+			<Text>新文明和领袖——346的涩谷凛和本田未央，以及领导346和兰德索尔的岛村卯月</Text>
+		</Row>
+		<Row Tag="LOC_UZUKI_MOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>包含1个新文明及3位领袖。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

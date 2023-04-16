@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_UZUKI_MOD_TITLE" Language="en_US">
+			<Text>New Generations Pack</Text>
+		</Row>
+		<Row Tag="LOC_UZUKI_MOD_TEASER" Language="en_US">
+			<Text>New Civilization and Leaders - Rin Shibuya and Mio Honda of 346 and Uzuki Shimamura, an alternate leader for 346 and Landosol</Text>
+		</Row>
+		<Row Tag="LOC_UZUKI_MOD_DESCRIPTION" Language="en_US">
+			<Text>Contains a new civilization and 3 leaders.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

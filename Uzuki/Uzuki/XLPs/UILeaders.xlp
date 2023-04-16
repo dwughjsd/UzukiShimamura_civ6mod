@@ -21,6 +21,14 @@
 			<m_EntryID text="LEADER_SHIBUYA_RIN_NEUTRAL"/>
 			<m_ObjectName text="LEADER_SHIBUYA_RIN_NEUTRAL"/>
 		</Element>
+		<Element>
+			<m_EntryID text="LEADER_UZUKI_LANDSOL_NEUTRAL"/>
+			<m_ObjectName text="LEADER_UZUKI_LANDSOL_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_UZUKI_LANDSOL_NEUTRAL_WORKAROUND"/>
+			<m_ObjectName text="LEADER_UZUKI_LANDSOL_NEUTRAL_WORKAROUND"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

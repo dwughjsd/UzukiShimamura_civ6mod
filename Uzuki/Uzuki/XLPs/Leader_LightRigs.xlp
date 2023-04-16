@@ -13,6 +13,10 @@
 			<m_EntryID text="Uzuki_LightRig"/>
 			<m_ObjectName text="Uzuki_LightRig"/>
 		</Element>
+		<Element>
+			<m_EntryID text="LandsolUzuki_LightRig"/>
+			<m_ObjectName text="LandsolUzuki_LightRig"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
