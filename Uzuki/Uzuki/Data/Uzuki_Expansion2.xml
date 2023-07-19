@@ -700,4 +700,29 @@
 		</Row>
 	</ModifierArguments>
 
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_GLAM_ROCK</UnitPromotionType>
+			<ModifierId>ROCKBAND_GLAM_ROCK_STARLIGHT_STAGE</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ROCKBAND_GLAM_ROCK_STARLIGHT_STAGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ROCK_BAND_LEVEL_DISTRICT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ROCKBAND_GLAM_ROCK_STARLIGHT_STAGE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_STARLIGHT_STAGE</Value>
+		</Row>
+		<Row>
+			<ModifierId>ROCKBAND_GLAM_ROCK_STARLIGHT_STAGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+
 </GameData>
